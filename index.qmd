@@ -1,0 +1,18 @@
+---
+title: "`posit::conf(2026) %>% glimpse()`"
+# subtitle: "Posit Conf 2026"
+author: "Dr. Dionne Argyropoulos · Mansi Aggarwal"
+date: "2026-10-29"
+date-format: "MMM D, YYYY"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    footer: "`posit::conf(2026) %>% glimpse()`"
+    css: styles.css
+    embed-resources: true
+---
+
+## Hello
+
+Slides go here.

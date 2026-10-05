@@ -1,0 +1,12 @@
+/* Keep the long title on one line */
+#title-slide .title,
+.reveal .title-slide h1.title,
+.reveal #title-slide h1 {
+  font-size: 1.3em !important;
+  white-space: nowrap;
+}
+
+/* Space between title and subtitle */
+#title-slide .title {
+  margin-bottom: 0.6em;
+}
