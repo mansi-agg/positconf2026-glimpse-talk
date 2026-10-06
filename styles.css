@@ -6,7 +6,30 @@
   white-space: nowrap;
 }
 
+
+/* Hide the footer on the title slide only */
+.reveal:has(#title-slide.present) .footer {
+  display: none !important;
+}
+
 /* Space between title and subtitle */
 #title-slide .title {
   margin-bottom: 0.6em;
+}
+
+/* Logo and footer share one bottom row, vertically centred */
+.reveal .slide-logo {
+  height: 5rem !important;
+  max-height: 5rem !important;
+  width: auto !important;
+  bottom: -10px !important;
+  right: 20px !important;
+}
+
+.reveal .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  bottom: -30px !important;
 }

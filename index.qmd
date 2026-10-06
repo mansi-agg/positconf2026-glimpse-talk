@@ -6,6 +6,7 @@ date: "2026-10-29"
 date-format: "MMM D, YYYY"
 format:
   revealjs:
+    logo: logos/rladies-melbourne-white.svg
     theme: [default, custom.scss]
     slide-number: true
     footer: "`posit::conf(2026) %>% glimpse()`"
