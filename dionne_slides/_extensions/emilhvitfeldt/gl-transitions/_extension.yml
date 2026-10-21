@@ -1,0 +1,10 @@
+title: GL Transitions
+author: Emil Hvitfeldt
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  revealjs-plugins:
+    - name: GLTransitions
+      script:
+        - html2canvas.min.js
+        - gl-transitions.js

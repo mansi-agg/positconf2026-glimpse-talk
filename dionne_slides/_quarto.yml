@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        
+format:
+  glamour-revealjs:
+    logo: images/logo_rladies_1.svg
+    auto-animate-duration: 0.9
+    code-overflow: wrap
+    fontsize: 15px
+    code-font-size: 14px
+    incremental: true
+    slide-number: true
+    chalkboard: true
+    # transition: none - will need to turn this to "none" if i want to use transitions extension
+    preview-links: auto
+    css: [theme/theme.css]
+    footer: "R-Ladies+ Melbourne | rladies.org"
+    title-slide-attributes:
+      class: elaborate-title
+      data-background-color: "#881ef9"

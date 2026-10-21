@@ -1,0 +1,254 @@
+[
+  {
+    "objectID": "index.html#TitleSlide",
+    "href": "index.html#TitleSlide",
+    "title": "",
+    "section": "posit::conf(2026) %>% glimpse()",
+    "text": "posit::conf(2026) %&gt;% glimpse()\nHow Community Creates Opportunity\nDionne Argyropoulos, PhD and Mansi Aggarwal"
+  },
+  {
+    "objectID": "index.html#introductions",
+    "href": "index.html#introductions",
+    "title": "",
+    "section": "Introductions",
+    "text": "Introductions\n\n\n\n\n\nWe are Mansi and Dionne, committee members at R-Ladies+ Melbourne\n\n\nWe both attended posit::conf(2026) in Houston, Texas (USA) this September as part of the Opportunity Scholars Program\n\n\nToday we will discuss our journeys before, during and after the conference!"
+  },
+  {
+    "objectID": "index.html#about-mansi",
+    "href": "index.html#about-mansi",
+    "title": "",
+    "section": "About Mansi",
+    "text": "About Mansi\nInclude things in your application about your journey and what you do :)"
+  },
+  {
+    "objectID": "index.html#about-dionne",
+    "href": "index.html#about-dionne",
+    "title": "",
+    "section": "About Dionne",
+    "text": "About Dionne\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperience with GitHub and Coding:\n\nDeveloper/maintainer of three R packages: SeroTrackR, wastewateR, melbourne\nDeveloper/maintainer R Shiny Application: PvSeroApp\nWritten a paper on SeroTrackR and PvSeroApp fit-for-purpose tool\nWritten my CV entirely using R Markdown via the vitae R package"
+  },
+  {
+    "objectID": "index.html#about-dionne-1",
+    "href": "index.html#about-dionne-1",
+    "title": "",
+    "section": "About Dionne",
+    "text": "About Dionne\n\n\n\nDeveloper/maintainer of two websites: personal and R-Ladies+ Melbourne\nAlso had to provide three links: Updated my website, provided my GitHub and R-Ladies+ Melbourne website"
+  },
+  {
+    "objectID": "index.html#about-dionne-2",
+    "href": "index.html#about-dionne-2",
+    "title": "",
+    "section": "About Dionne",
+    "text": "About Dionne"
+  },
+  {
+    "objectID": "index.html#about-dionne-3",
+    "href": "index.html#about-dionne-3",
+    "title": "",
+    "section": "About Dionne",
+    "text": "About Dionne"
+  },
+  {
+    "objectID": "index.html#about-dionne-4",
+    "href": "index.html#about-dionne-4",
+    "title": "",
+    "section": "About Dionne",
+    "text": "About Dionne\nOther coding contributions:\n\nDeveloped multiple ebooks for R-Ladies+ Melbourne, lab-based protocols and my Shiny App/R package\nJoined R Dev Day 2025 in Melbourne (r-devel/translations-dashboard/issues/38)\n\n\nExperience in contributing to the community:\n\nR-Ladies+ Melbourne since 2023\n\nExecutive roles, maintain website, slack, social media\n\nveski Women in STEM: Mentor (2025, 2026)\nTeaching R courses (WEHI, UoM, It Takes A Spark)\n\n\n\n\nTreasurer (current), President since 2024-2026, VP in 2023, committee\nOrganise women and gender-minority led events\nUplift women, non-binary and gender minority groups\nFind speakers for events and lead contact for organisation (at the time)\nVeski: Inspiring the next generation of girls in STEM"
+  },
+  {
+    "objectID": "index.html#opportunity-scholars-program",
+    "href": "index.html#opportunity-scholars-program",
+    "title": "",
+    "section": "Opportunity Scholars Program",
+    "text": "Opportunity Scholars Program\nSupported by Posit PBC to fly to Houston for four nights, registration for posit::conf(2026) and a workshop; (optional) for Tidy Dev Day!"
+  },
+  {
+    "objectID": "index.html#timeline",
+    "href": "index.html#timeline",
+    "title": "",
+    "section": "Timeline",
+    "text": "Timeline\n\n\nApplication 📝 Draft and submit application\n\n\nDecision 🎉 Found out we were successful!\n\n\nConference ✈️ Fly to Houston, Texas"
+  },
+  {
+    "objectID": "index.html#positconf2026-glimpse",
+    "href": "index.html#positconf2026-glimpse",
+    "title": "",
+    "section": "posit::conf(2026) %>% glimpse()",
+    "text": "posit::conf(2026) %&gt;% glimpse()"
+  },
+  {
+    "objectID": "index.html#workshop-the-modern-r-workflow",
+    "href": "index.html#workshop-the-modern-r-workflow",
+    "title": "",
+    "section": "Workshop: “The Modern R Workflow”",
+    "text": "Workshop: “The Modern R Workflow”\nwith Jenny Bryan and Hadley Wickham\n\n\n\n\nPositron IDE\n\n\nBuilt for data exploration, writing code (with/out AI)\nFamiliar, RStudio-like and extensible, VSCode\nMultilingual\nWorkspace is a folder (no .RProj)\nNo need to migrate from RStudio\n\n\n\n \nPosit Assistant and Posit AI Pass\n\n\nPA: AI harness geared towards needs of data scientists\nWorks within IDE and connects to live session\nCan be used with many providers\nPosit AI Pass: Access many models through one subscription service\nIt shows relative cost within the model picker\n\n\n\n\n\n\nDay 1: workshop with Jenny Bryan and Hadley Wickham on AI-assisted coding.\nLunch with the other opportunity scholars was lovely; evening was the data science hangout catch-up.\nPositron vs. RStudio:\n\nRStudio still best for day-to-day R;\nPositron wins if you work across languages, want to customise through extensions, workflows with multiple R sessions.\n\nPosit Assistant\n\nVarious tool calls that are intuitive and have specific user-input\nTool calls: search, read, write, edit, execudeCode, bash, AskUser, webfetch\n\nPosit AI Pass shows token use at all times and how you compare to others."
+  },
+  {
+    "objectID": "index.html#workshop-the-modern-r-workflow-air-tips",
+    "href": "index.html#workshop-the-modern-r-workflow-air-tips",
+    "title": "",
+    "section": "Workshop: “The Modern R Workflow”: AI/R Tips",
+    "text": "Workshop: “The Modern R Workflow”: AI/R Tips\nwith Jenny Bryan and Hadley Wickham\n\n💡 /clear conversations regularly\n💡 Use AGENT.md to store regular instructions\n💡 Ask agent to “talk like a caveman”: succinct and saves tokens\n💡 Create skills to avoid common pitfalls\n💡 Use tools like air (formatting), pak (installing packages), rig to manage multiple R installations\n💡 Kimi K3 recommended as a capable model for reasonable price\n\n\n💭 Harness provides the tools, model is specific LLM, provider who runs the server\n\n\n🚨 NEVER MAKE ANOTHER HUMAN READ AI SLOP\n\n\nAGENTS.md: instructions the AI reads every session\nIf AI writes your code, comment as a human\nTip: put “talk like a caveman” in your AGENTS.md — saves tokens and gets to the point.\n/clear the Posit AI conversation regularly: conversations are additive and it resends everything in the conversation every time you continue a conversation, increasing the number of tokens used\nOn tokens:\n\nTools exist like agentsview.io shows how many tokens you use and what it costs.\n\nAGENT.md is a way to avoid repeating yourself across multiple conversations, apply personal preferences across projects, keep them minimalist and not build them up too much.\nCreate skills to save tokens by avoiding common pitfalls and to steer it in the right direction to something more efficient\nUse tools like air for formatting, pak for installing R packages and rig to manage multiple R installation\nKimi K3 strongly recommended as a very capable model for a reasonable price\nTerminology:\n\n“Harness” provides the tools (e.g., Posit AI),\n“Model” is the specific LLM (e.g. Kimi K3) and\n“Provider” is who runs the server that runs the model (e.g. posit.ai)\nAn agent is a model, inside a harness, running a loop, using tools, to achieve a goal.\n\nUrge the audience: if you use AI for code, at least edit the comments yourself so a human voice stays in the code."
+  },
+  {
+    "objectID": "index.html#workshop-the-modern-r-workflow-the-stakes",
+    "href": "index.html#workshop-the-modern-r-workflow-the-stakes",
+    "title": "",
+    "section": "Workshop: “The Modern R Workflow”: The Stakes",
+    "text": "Workshop: “The Modern R Workflow”: The Stakes\n\nThe stakes of using AI in a workflow"
+  },
+  {
+    "objectID": "index.html#workshop-the-modern-r-workflow-the-stakes-1",
+    "href": "index.html#workshop-the-modern-r-workflow-the-stakes-1",
+    "title": "",
+    "section": "Workshop: “The Modern R Workflow”: The Stakes",
+    "text": "Workshop: “The Modern R Workflow”: The Stakes\n\n\n\n\nVery Low\nImplement it quickly. E.g. “Fix this bug”\n\n\nLow\nPlan it, then implement it. E.g. “Fix issue”, then deliberately read and rewrite AI slop from commit messages or pull requests\n\n\nMedium\nPlan it, review the plan, implement it, review the implementation. E.g. “Read issue, construct a minimal reprex, write a brief plan in plan.md”, review, then execute.\n\n\nHigh\nDesign it, then repeat the cycles above: break the problem into manageable chunks, consider functions and the broader ecosystem. E.g. use one model to plan and another to implement. Always review.\n\n\n\nNot sure if we should keep this in\nI just wanted to experiment with the slides tbh"
+  },
+  {
+    "objectID": "index.html#keynote-correct-reproducible-transparent-data-agents",
+    "href": "index.html#keynote-correct-reproducible-transparent-data-agents",
+    "title": "",
+    "section": "Keynote: Correct, reproducible, transparent data agents",
+    "text": "Keynote: Correct, reproducible, transparent data agents\nwith Sara Altmann and Simon Couch\n\n\nIntroducing the commons R package:\n\nHow can we design AI systems to produce better work?\nHelp the agent be correct and make it less bad when wrong\nDo this by providing trusted code known to be correct\nSignals in response of high and low trust"
+  },
+  {
+    "objectID": "index.html#keynote-correct-reproducible-transparent-data-agents-1",
+    "href": "index.html#keynote-correct-reproducible-transparent-data-agents-1",
+    "title": "",
+    "section": "Keynote: Correct, reproducible, transparent data agents",
+    "text": "Keynote: Correct, reproducible, transparent data agents\nwith Sara Altmann and Simon Couch\n \n\n💡 As a teacher/supervisor: This will directly help me ensure students are on the right path when learning how to code.\n\n\nDays 2–3: keynotes and sessions.\nSara Altmann & Simon Couch.\nTwo strategies: help the agent be correct (sound statistics, reproducible practices, trusted code), and make it less bad when it’s wrong (share your environment and prompts so it nudges you to good choices).\nMy angle as a teacher: a way to ensure AI-generated content students rely on is accurate and aligned with what we teach."
+  },
+  {
+    "objectID": "index.html#shiny-in-pieces",
+    "href": "index.html#shiny-in-pieces",
+    "title": "",
+    "section": "Shiny in Pieces",
+    "text": "Shiny in Pieces\nwith Barret Schloerke, Isabel Glauß, Karan Gathani, Libby McKenna\n\n\nIntroducing the shinyreact R package:\n\nBrowse React.dev components, use them in Shiny\n1:1 UI ↔︎ server binding with reactive_output()\n.tsx JavaScript file\nSlides here\n\n\n\n\n\n\nReact: 100M+ downloads per month vs. Shiny’s 50M in 14 years.\nBefore:\n\nServer does reactive computation, client handles UI, loosely coupled.\nBefore shinyreact: server.R handles reactive computation and the ui.R defines the visual structure by using built-in functions (fluidPage(), sidebarLayout()).\n\nWith shinyreact: Replace ui.R with a React component that you write yourself, giving complete freedom of design using the vast React ecosystem.\n\nNow each UI component can be directly linked to its server logic — more efficient, more responsive apps."
+  },
+  {
+    "objectID": "index.html#shiny-in-pieces-shinyreact",
+    "href": "index.html#shiny-in-pieces-shinyreact",
+    "title": "",
+    "section": "Shiny in Pieces: shinyreact",
+    "text": "Shiny in Pieces: shinyreact\nwith Barret Schloerke, Isabel Glauß, Karan Gathani, Libby McKenna\n\n\nlibrary(shiny)\n\nui &lt;- fluidPage(\n  tags$head(\n    tags$style(HTML(\n      \"\n      .greeting-box {\n        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n        color: white;\n        padding: 20px;\n        border-radius: 10px;\n        margin-top: 20px;\n        font-size: 18px;\n        text-align: center;\n        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n      }\n      .input-section {\n        background-color: #f8f9fa;\n        padding: 15px;\n        border-left: 4px solid #667eea;\n        border-radius: 5px;\n      }\n    \"\n    ))\n  ),\n\n  div(\n    class = \"container\",\n    style = \"margin-top: 40px;\",\n    h1(\"✨ Personalised Greeting App\", style = \"text-align: center;\"),\n\n    div(\n      class = \"input-section\",\n      textInput(\"name\", \"Enter your name:\", placeholder = \"Type here...\"),\n      p(\n        \"We'll create a custom greeting just for you!\",\n        style = \"color: #666; font-style: italic;\"\n      )\n    ),\n\n    div(class = \"greeting-box\", textOutput(\"greeting\"))\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  output$greeting &lt;- renderText({\n    if (input$name == \"\") {\n      \"👋 Welcome! Enter your name above.\"\n    } else {\n      paste0(\"🎉 Hello, \", input$name, \"! Welcome to our app!\")\n    }\n  })\n}\n\nshinyApp(ui, server)\n\n\nlibrary(shiny)\nlibrary(shinyreact)\n\nserver &lt;- function(input, output, session) {\n  output$greeting &lt;- reactive_output({\n    list(message = paste0(\"Hello, \", input$name))\n  })\n}\n\nshinyApp(page_react(), server)\n\n\n\n\nScreenshot over code here: the conceptual shift is visual.\nAI agents can write the .tsx code"
+  },
+  {
+    "objectID": "index.html#shiny-in-pieces-and-dashboards",
+    "href": "index.html#shiny-in-pieces-and-dashboards",
+    "title": "",
+    "section": "Shiny in Pieces and Dashboards",
+    "text": "Shiny in Pieces and Dashboards\nwith Barret Schloerke, Isabel Glauß, Karan Gathani, Libby McKenna, John Paul Helveston, Blake Abbenante, Malosree Maitra, Jadey Ryan, Tanya Shapiro\n\n“Wherever there is a repeated custom solution, a module needs to be built.”\n\n\nReusable building blocks → package → apps\nStandardise at the start, not retrofit later\n\n\n\nBenefits at scale: quality (best practices, validation), sustainability (less maintenance), efficiency (pre-built blocks), consistency (unified look and feel), flexibility (trial-specific adaptation within standards).\nAdoption needs training, documentation, communication.\nIntroduce modular frameworks into app design\nRather than duplicating functionality and create standalone apps\nBuild reusable building blocks, create a package for consistency, versioning and testing\nCreate a standardised theme to link apps together\nCareful documentation and communication\nA repeated custom solution implies a module needs to be built\nBenefits of modularity at scale: Quality, Sustainability, Efficiency, Consistency, Flexibility\nLinks to the dashboard session: modularity, efficiency, correctness in AI use."
+  },
+  {
+    "objectID": "index.html#teaching-at-the-frontier",
+    "href": "index.html#teaching-at-the-frontier",
+    "title": "",
+    "section": "Teaching at the Frontier",
+    "text": "Teaching at the Frontier\nwith Mine Cetinkaya-Rundel, Marc Dotson, Derrick Cogburn, Christian Martinez\n\nThe problem: Teaching how to code in the AI era\n\nPosible solutions and tools:\n\nInstruction guide on best AI practices\nEmphasise coding workflow best practices\nBuild prompt engineering into the course throughout\nAI assistants in working sessions via AGENT.md files with pedagogical values\nAssess the judgement of code as well as syntax\n\n\n\nMine: integrate the AI guide all semester (not one lecture); emphasise workflow, especially version control; shift AI from shortcut to learning support — e.g. an AGENTS.md tutor in the student repo with pedagogical guardrails.\nDerrick: prompting is core curriculum; chain-of-thought reasoning step-by-step; quarto as the throughline. Built two assistants: SmartText knows the course; Posit Assistant knows your code, data, plots.\nMine is now teaching R in Positron — positron is taking over everything.\nThe problem: Teaching in the AI era is difficult, when students are learning to code but can simply go to AI who can do a pretty good job, but students don’t have the skill set to learn when AI is wrong\nDon’t expect memorisation; expect knowing how to use and verify code.\nCould shift our subject from biological content toward tools and techniques that elevate reporting, sci comm, and publication.\nPrompting pedagogy worth stealing: chain-of-thought, few-shot examples, domain-specific vocabulary, iterative prompting, and teaching token costs (money and environment)."
+  },
+  {
+    "objectID": "index.html#teaching-at-the-frontier-1",
+    "href": "index.html#teaching-at-the-frontier-1",
+    "title": "",
+    "section": "Teaching at the Frontier",
+    "text": "Teaching at the Frontier\nwith Mine Cetinkaya-Rundel, Marc Dotson, Derrick Cogburn, Christian Martinez\n\nThe problem: Students learn for a semester, but forget after.\n\n\nAs semester progresses, encourage students to build a quarto book of materials\nEncourage students to reflect on their work and create a profile they can refer back to\n\n\n\nLoved the “accidental author” model: weekly assignment → feedback → revision/resubmission → republish → final public-facing quarto book each student can link from their CV."
+  },
+  {
+    "objectID": "index.html#keynote-navigating-the-agentic-future",
+    "href": "index.html#keynote-navigating-the-agentic-future",
+    "title": "",
+    "section": "Keynote: Navigating the agentic future",
+    "text": "Keynote: Navigating the agentic future\n\n\n\n\n\nWes McKinney. These three skills mattered pre-AI; without them now you get AI slop, or someone curses your work in the future.\nJudgement: what to build, what to leave out — agents will happily help you achieve bad ideas.\nTaste: hundreds of micro-decisions a day without human interaction → decision fatigue → slop.\nAgency: “Most everything that happens is because a person made it happen” (Mitchell Hashimoto).\n“They’re not agents; you are.” His Clanker Constitution: honour the request, act with judgement, finish the job, protect existing work, verify reality, communicate for humans, learn in the right place."
+  },
+  {
+    "objectID": "index.html#quarto-connected",
+    "href": "index.html#quarto-connected",
+    "title": "",
+    "section": "Quarto, Connected",
+    "text": "Quarto, Connected\nwith Charlotte Wickham, Emil Hvitfelt, Carlos Scheidegger, Andy Teucher\nAccessibility: - Responsibilities of Quarto and the user: both have a role - Quarto devs can create accessible tools based on feedback - User: Colour contrast 4:5:1, Set alternative text, Check docs on multiple devices, Hit tab, Zoom in\n\n\nCharlotte Wickham. New in Quarto HTML: “skip to main content” on Tab for keyboard-only users.\nYour responsibilities: shift-left on accessibility; set alt text (fig-alt in chunks, logo-alt in YAML); colour contrast ratio 4.5:1 (agents are good at writing that CSS).\nWhat can’t be automated: hit the Tab key yourself, zoom to 200%, check on mobile, check computational outputs."
+  },
+  {
+    "objectID": "index.html#quarto-connected-the-future",
+    "href": "index.html#quarto-connected-the-future",
+    "title": "",
+    "section": "Quarto, Connected: The Future",
+    "text": "Quarto, Connected: The Future\nwith Charlotte Wickham, Emil Hvitfelt, Carlos Scheidegger, Andy Teucher\n\nquarto-revealjs-editable: Move and resize slides by hand\nQuarto 2: Rewritten in Rust, ~100x faster\nQuarto Hub: Collaborative editor (experimental)\n\n\n\nEmil Hvitfelt:\n\nEdit slides with a cursor — drag images, resize — and the code updates after the fact.\nSlides: emilhvitfeldt.github.io/talk-quarto-editable.\nThe future of quarto-revealjs is quarto-revealjs-editable\nAllows users to modify slides that make sense for a user-interface\nEditable pane, adjust size, and code adjusts after the fact\n\nCarlos Scheidegger:\n\nq2 compiled to WebAssembly runs in the browser, fast enough to re-render at every keystroke;\nCollaboration via Automerge (CRDT); LLM agents can be collaborators via MCP. Roadmap ~1 year from Quarto 1 → 2; HTML furthest along.\nQuarto 2: Rewritten in Rust: 100x faster than Quarto – fast enough to render at a key stroke, and can sync source and visual editors nicely\nQuartoHub: Collaborative editor for Quarto documents (experimental): features real-time rendering, browser-based editor, comments, track changes (both who made the change and what the change is)\n\n“Quarto wasn’t built for AI — it’s rooted in plain text and reproducibility… better when your collaborator is also an agent; consider asking for a qmd file.”"
+  },
+  {
+    "objectID": "index.html#from-laptop-to-cluster",
+    "href": "index.html#from-laptop-to-cluster",
+    "title": "",
+    "section": "From laptop to cluster",
+    "text": "From laptop to cluster\nwith Charlie Gao, Cory Adkins, Travis Gerke, Edgar Ruiz\n\n\n \nmirai: Async — never wait for a result mori: Shared memory — one copy, many readers\n\n \nducklake: Database versioning in R dplyneage: Column-level lineage for dplyr pipelines\n\n\nTune tidymdoels in Databricks via tune_grid_spark()\n\n\n\nA Shiny server is an event loop; long tasks block it for every user.\n\nScaling safely: queues fill; a dispatcher dying stops everything; no dispatcher strands tasks behind slow ones. mirai: if a daemon dies, only its queue goes with it.\nBounded queue + try_mirai(): set a memory limit; on overflow it returns NULL so you control the fallback (warn, retry).\nmori::share(): put one dataset in shared memory once — 100 tasks read one copy, so your app supports many more users.\nScales: desktop → your servers over SSH → HPC (cluster_config()) → Kubernetes/Workbench launcher. Not just Shiny — tidymodels integration is coming.\n\nbronze → silver → gold — each hop a versioned, documented transaction\n\nTravis Gerke, “Quack to the Future”: attach the database; every change is version-controlled.\nMedallion: bronze = raw as received; silver = cleaned, conformed types and names; gold = analysis-ready with business logic.\nAlso dplyneage: column-level lineage for dplyr pipelines — every column traced back to its sources. Slides: tgerke.github.io/quack-to-the-future."
+  },
+  {
+    "objectID": "index.html#flash-talks",
+    "href": "index.html#flash-talks",
+    "title": "",
+    "section": "Flash talks",
+    "text": "Flash talks\n\nFile naming conventions (Jenny Bryan)\n\n\nRegular expression, globbing friendly, delimiters, left pad numbers with zero\n\n\nbtw (Garrick Aden-Buie)\n\n\nInforms agents that “by the way” this function exists: brings code to LLM\n\n\nhephaestus (Thomas Lin Pedersen)\n\n\nimages you can edit after saving\n\n\n\nJenny Bryan’s file naming: no spaces/punctuation/accents; deliberate delimiters; embrace numbering (01_, 02_); ISO 8601 dates; left-pad zeros; plan for alphanumeric sorting; human-readable.\nAlso btw if time: brings R help docs to your LLM; btw_app() = a coding agent in Shiny. (Cut if tight.)https://posit-dev.github.io/btw/\n\nInforms the agent that “by the way” this code exists – brings code documentation to the LLM\nThis has grown into the btw_app() and and btw.md file that give your client instructions\n\nHephaestus: save as a .hep file instead of png — captures the ggplot2 elements, so the “image” is not static: resize it, add labels, export any format later. github.com/posit-dev/hephaestus.\n\nInteractively and retrospectively edit images generated from ggsql\nggsql can create a .hep file to be viewed in the Hephaestus viewer\nThe file is the encoding of the information about the visualisation\nThis is not static; lends itself to be adapted e.g. resize, update or add labels, colour change\n\n\ninsert more info on these and work on the pace"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day",
+    "href": "index.html#tidy-dev-day",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day-1",
+    "href": "index.html#tidy-dev-day-1",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day\nThe tidybrews menu"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day-2",
+    "href": "index.html#tidy-dev-day-2",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day\nWorked on tidymodels issues tidymodels#154\n\n\n\n\nVideo"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day-3",
+    "href": "index.html#tidy-dev-day-3",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day\nWorked on tidymodels issues tidymodels/parsnip#1354"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day-4",
+    "href": "index.html#tidy-dev-day-4",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day\nWorked on tidymodels issues tidymodels/tune#1200\n\n\n\n\n\n#'\n#' @return An S3 object of class `control_grid` (also used for `control_bayes`,\n#' `control_resamples`, `control_last_fit`) used to contain the\n#' control settings in a grid search as a list.\n#'\n#' @examples\n#'\n#' library(recipes)\n#' library(rsample)\n#' library(parsnip)\n#' library(workflows)\n#'\n#' set.seed(1234)\n#'\n#' folds &lt;- vfold_cv(mtcars, v = 5)\n#'\n#' recipe &lt;- recipe(mpg ~ ., data = mtcars) |&gt;\n#'   step_normalize(all_numeric_predictors())\n#'\n#' # Model with tuning parameters, used for `tune_grid()` and `tune_bayes()`.\n#' spec &lt;- mlp(\n#'   hidden_units = tune(),\n#'   penalty = tune()\n#' ) |&gt;\n#'   set_engine(\"nnet\") |&gt;\n#'   set_mode(\"regression\")\n#'\n#' wf &lt;- workflow() |&gt;\n#'   add_model(spec) |&gt;\n#'   add_recipe(recipe)\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_grid(): Modify tuning process in `tune_grid()`.\n#' ctrl &lt;- control_grid(\n#'   # save out-of-sample predictions\n#'   save_pred = TRUE,\n#'   # print progress while tuning\n#'   verbose = TRUE\n#' )\n#'\n#' tune_grid(\n#'   wf,\n#'   resamples = folds,\n#'   grid = 5,\n#'   control = ctrl\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_bayes(): Modify tuning process in `tune_bayes()`.\n#' ctrl_bayes &lt;- control_bayes(\n#'   save_pred = TRUE,\n#'   verbose = TRUE\n#' )\n#'\n#' set.seed(3246)\n#' tune_bayes(\n#'   wf,\n#'   resamples = folds,\n#'   initial = 5,\n#'   iter = 10,\n#'   control = ctrl_bayes\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # `fit_resamples()` and `last_fit()` can't use `tune()` placeholders, so for\n#' # `control_resamples()` and `control_last_fit()` we use a model with fixed\n#' # parameters.\n#' # ---------------------------------------------------------------------------\n#' # control_resamples(): Retain out-of-sample predictions and fitted workflows\n#' # in the grid and each fold.\n#' spec_fixed &lt;- linear_reg() |&gt;\n#'   set_engine(\"lm\")\n#'\n#' wf_fixed &lt;- workflow() |&gt;\n#'   add_model(spec_fixed) |&gt;\n#'   add_recipe(recipe)\n#'\n#' keep_pred &lt;- control_resamples(\n#'   save_pred = TRUE,\n#'   save_workflow = TRUE\n#' )\n#'\n#' fit_resamples(\n#'   wf_fixed,\n#'   resamples = folds,\n#'   control = keep_pred\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_last_fit(): Control last fit process by printing progress.\n#' split &lt;- initial_split(mtcars)\n#'\n#' ctrl_last_fit &lt;- control_last_fit(verbose = TRUE)\n#'\n#' last_fit(\n#'   wf_fixed,\n#'   split = split,\n#'   control = ctrl_last_fit\n#' )\n\n\n\nDay 4: Tidy Dev Day, contributing to tidyverse packages. - Resolved tidymodels/tidymodels#144; parsnip#1354 was already fixed; brulee#39 was more involved than anticipated. - Other Hadley prompts: “Where’s the metaphorical bathroom in this package?” and “How could we make this code better?” - Great place to meet like-minded folks across fields, expertise, and experience levels — and contribute to the code we all use."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "Thank the organisers, opportunity scholarship, R-Ladies+ Melbourne.\nInvite questions; links to all talks available."
+  },
+  {
+    "objectID": "index.html#advice-for-opportunity-scholars-2027",
+    "href": "index.html#advice-for-opportunity-scholars-2027",
+    "title": "",
+    "section": "Advice for Opportunity Scholars 2027",
+    "text": "Advice for Opportunity Scholars 2027\n\nBe active in your R communities\nMake a website!\nJoin R/Tidy Dev Days, Data Hangouts, Hackathons\nCompile a list of your R skills"
+  },
+  {
+    "objectID": "index.html#final-thoughts",
+    "href": "index.html#final-thoughts",
+    "title": "",
+    "section": "Final thoughts",
+    "text": "Final thoughts\n\nHumans have never been more important in the unstable AI era\n\n\n\n“Before trusting the scores, validate the Judge”\n\n\nAll talks will be available on YouTube in December!"
+  },
+  {
+    "objectID": "index.html#thank-you",
+    "href": "index.html#thank-you",
+    "title": "",
+    "section": "Thank you",
+    "text": "Thank you"
+  }
+]
