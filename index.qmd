@@ -1,15 +1,12 @@
 ---
-date: today
 format: glamour-revealjs
+date: today
 execute:
   echo: false
 revealjs-plugins:
-  - chat-bubbles
-  # - gl-transitions # will need to add this if using these transitions 
   - quarto-revealjs-video-fragments
   - magic-move
 filters:
-  - sticky-notes
   - timeline 
   - easycarousel
   - quarto
@@ -545,8 +542,11 @@ shinyApp(page_react(), server)
 *with Charlotte Wickham, Emil Hvitfelt, Carlos Scheidegger, Andy Teucher*
 
 **Accessibility**: 
+
 - Responsibilities of Quarto *and* the user: both have a role
+
 - Quarto devs can create accessible tools based on feedback
+
 - User: Colour contrast 4:5:1, Set alternative text, Check docs on multiple devices, Hit tab, Zoom in
 
 ::: {.notes}
@@ -555,7 +555,7 @@ shinyApp(page_react(), server)
 - What can't be automated: hit the Tab key yourself, zoom to 200%, check on mobile, check computational outputs.
 :::
 
-## Quarto, Connected: The Future
+## Quarto, Connected: [The Future]{.violet-emph}
 
 *with Charlotte Wickham, Emil Hvitfelt, Carlos Scheidegger, Andy Teucher*
 
@@ -823,11 +823,6 @@ Worked on tidymodels issues `tidymodels/tune#1200`
 ![](images/conf_selfie_conf.png)
 ```
 
-::: {.notes}
-- Thank the organisers, opportunity scholarship, R-Ladies+ Melbourne.
-- Invite questions; links to all talks available.
-:::
-
 ## Advice for Opportunity Scholars 2027
 
 - Be active in your R communities 
@@ -846,3 +841,9 @@ Worked on tidymodels issues `tidymodels/tune#1200`
 - All talks will be available on YouTube in December! 
 
 ## Thank you
+
+::: {.notes}
+- Thank the organisers, opportunity scholarship, R-Ladies+ Melbourne.
+- Invite questions; links to all talks available.
+- Thank rladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !! 
+:::
