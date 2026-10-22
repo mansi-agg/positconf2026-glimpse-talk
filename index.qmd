@@ -44,7 +44,34 @@ Today we will discuss our journeys [before]{.rose-emph}, [during]{.blue-emph} an
 
 ## About [Mansi]{.violet}
 
-Include things in your application about your journey and what you do :) 
+
+::::: rows
+
+::: {.row height="40%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
+::: {.fragment}
+![](images/mansi_wwcode_talk.png){width="650px"}
+:::
+
+::: {.fragment}
+![](images/mansi_wwcode_testimonial.png){width="350px"}
+:::
+
+::: {.fragment}
+![](images/mansi_omdena.png){height="250px"}
+:::
+
+:::
+
+::: {.row height="60%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
+::: {.fragment}
+![](images/mansi_abacbs_poster.JPG){height="280px"}
+:::
+
+::: {.fragment}
+![](images/mansi_abacbs_committee.png){height="300px"}
+:::
+:::
+:::::
 
 ## About [Dionne]{.violet} 
 
