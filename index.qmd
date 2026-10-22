@@ -14,11 +14,11 @@ filters:
   - more-fragments
 ---
 
-## posit::conf(2026) %>% glimpse() {#TitleSlide data-menu-title="Welcome" background-color="#881ef9" style="font-size:64px;padding: 5px "}
+## `posit::conf(2026) %>% glimpse()`{style="background:transparent; padding:0; font-size:inherit; color:inherit;"} {#TitleSlide data-menu-title="Welcome" background-color="#881ef9" style="font-size:64px;padding: 5px "}
 
 [How Community Creates Opportunity]{style="font-size:80%"}
 
-[Dionne Argyropoulos, PhD and Mansi Aggarwal]{style="font-size:50%"}
+[Dionne Argyropoulos, PhD & Mansi Aggarwal]{style="font-size:50%"}
 
 ## Introductions
 
@@ -150,7 +150,7 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 :::
 :::
 
-## posit::conf(2026) %>% glimpse() {.big-statement data-menu-title="The Conference" background-color="#881ef9" style="font-size:64px;padding: 5px "}
+## `posit::conf(2026) %>% glimpse()`{style="background:transparent; padding:0; font-size:inherit; color:inherit;"} {.big-statement data-menu-title="The Conference" background-color="#881ef9" style="font-size:55px;padding: 5px "}
 
 ## Workshop: "The Modern R Workflow" 
 
@@ -745,7 +745,7 @@ Using AI tools with [clear intentions]{.violet} and [careful scrutiny]{.violet} 
 
 - All talks will be available on YouTube in December! 
 
-## posit::conf(2026) %>% glimpse(questions = "?") {#FinalSlide data-menu-title="Thank-you" background-color="#881ef9" style="font-size:64px;padding: 5px "}
+## `posit::conf(2026) %>% glimpse(questions = "?")`{style="background:transparent; padding:0; font-size:inherit; color:inherit;"} {#FinalSlide .big-statement data-menu-title="Thank-you" background-color="#881ef9" style="font-size:50px;padding: 5px "}
 
 ::: {.notes}
 - Thank the organisers, opportunity scholarship, R-Ladies+ Melbourne.

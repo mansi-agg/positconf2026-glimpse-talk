@@ -4,7 +4,7 @@
     "href": "index.html#TitleSlide",
     "title": "",
     "section": "posit::conf(2026) %>% glimpse()",
-    "text": "posit::conf(2026) %&gt;% glimpse()\nHow Community Creates Opportunity\nDionne Argyropoulos, PhD and Mansi Aggarwal"
+    "text": "posit::conf(2026) %&gt;% glimpse()\nHow Community Creates Opportunity\nDionne Argyropoulos, PhD & Mansi Aggarwal"
   },
   {
     "objectID": "index.html#introductions",
@@ -157,7 +157,7 @@
     "objectID": "index.html#FinalSlide",
     "href": "index.html#FinalSlide",
     "title": "",
-    "section": "posit::conf(2026) %>% glimpse(questions = “?”)",
-    "text": "posit::conf(2026) %&gt;% glimpse(questions = “?”)\n\n\nThank the organisers, opportunity scholarship, R-Ladies+ Melbourne.\nInvite questions; links to all talks available.\nThank rladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !!"
+    "section": "posit::conf(2026) %>% glimpse(questions = \"?\")",
+    "text": "posit::conf(2026) %&gt;% glimpse(questions = \"?\")\n\n\nThank the organisers, opportunity scholarship, R-Ladies+ Melbourne.\nInvite questions; links to all talks available.\nThank rladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !!"
   }
 ]
