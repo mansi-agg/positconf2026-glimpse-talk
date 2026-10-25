@@ -48,12 +48,13 @@ Today we will discuss our journeys [before]{.rose-emph}, [during]{.blue-emph} an
 ::::: rows
 
 ::: {.row height="40%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
-::: {.fragment}
-![](images/mansi_wwcode_talk.png){width="650px"}
-:::
 
 ::: {.fragment}
 ![](images/mansi_wwcode_testimonial.png){width="350px"}
+:::
+
+::: {.fragment}
+![](images/mansi_wwcode_talk.png){width="650px"}
 :::
 
 ::: {.fragment}
@@ -64,12 +65,13 @@ Today we will discuss our journeys [before]{.rose-emph}, [during]{.blue-emph} an
 
 ::: {.row height="60%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
 ::: {.fragment}
-![](images/mansi_abacbs_poster.JPG){height="280px"}
+![](images/mansi_abacbs_committee.png){height="300px"}
 :::
 
 ::: {.fragment}
-![](images/mansi_abacbs_committee.png){height="300px"}
+![](images/mansi_abacbs_poster.JPG){height="280px"}
 :::
+
 :::
 :::::
 
@@ -200,11 +202,13 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 - Posit AI Pass shows token use at all times and how you compare to others.
 :::
 
-## Workshop: "The Modern R Workflow": AI/R Tips
+## Workshop: "The Modern R Workflow"
 
 *with Jenny Bryan and Hadley Wickham*
 
 . . . 
+
+[AI/R Tips]{.violet}
 
 💡 `/clear` conversations regularly
 
@@ -246,6 +250,8 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 - Urge the audience: if you use AI for code, at least edit the comments yourself so a human voice stays in the code.
 
 :::
+
+## Dionne's Conference Highlights {.center}
 
 ## Conference session that's stayed with me 
 <!-- Dionne -->
@@ -536,7 +542,7 @@ Slides:
   - Medallion: bronze = raw as received; silver = cleaned, conformed types and names; gold = analysis-ready with business logic.
   - Also `dplyneage`: column-level lineage for dplyr pipelines — every column traced back to its sources. Slides: tgerke.github.io/quack-to-the-future.
 :::
-
+<!-- 
 ## Keynote: Navigating the agentic future {.center}
 
 [Judgement]{.tegaki .fragment size="3.5"} 
@@ -551,7 +557,7 @@ Slides:
 - Taste: hundreds of micro-decisions a day without human interaction → decision fatigue → slop.
 - Agency: "Most everything that happens is because a person made it happen" (Mitchell Hashimoto).
 - "They're not agents; you are." His Clanker Constitution: honour the request, act with judgement, finish the job, protect existing work, verify reality, communicate for humans, learn in the right place.
-:::
+::: -->
 
 ## Tidy Dev Day
 
@@ -707,18 +713,122 @@ Worked on tidymodels issues `tidymodels/tune#1200`
 - Great place to meet like-minded folks across fields, expertise, and experience levels — and contribute to the code we all use.
 :::
 
+
+<!-- Dionne End -->
+
+
+
+<!-- Mansi -->
+## Mansi's Major Takeaways {.center}
+
+## {.center}
+
+::: {.incremental}
+- Thinking differently about AI 👩🏽‍💻
+- Consumption vs Creation 🛠️
+:::
+
+## I have often been an AI skeptic... 
+
+::::: {.columns .v-center}
+
+:::: {.column width="55%" .fragment .fade-in fragment-index=1}
+![](images/mansi_highlight_1_wes-talk.JPG){width="100%"}
+::::
+
+::: {.column width="45%"}
+[But one thing that stood out across the conference was how thoughtfully people are engaging with AI,]{.fragment .fade-in fragment-index=1} [not as a replacement for [human expertise]{.violet},]{.fragment .fade-in fragment-index=2} [but as a tool that can enhance [creativity, productivity, communication, teaching, and scientific discovery.]{.violet}]{.fragment .fade-in fragment-index=3}
+:::
+
+:::::
+
+## Some standout AI sessions (and learnings!)  {transition="fade"}
+
+
+::::: rows
+
+::: {.row height="40%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
+::: {.fragment}
+![Wes McKinney's keynote](images/standout_session_1.png){height="200px"}
+:::
+
+::: {.fragment}
+![Demystifying LLM jargon by example](images/standout_session_2.png){height="200px"}
+:::
+:::
+
+::: {.row height="40%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
+::: {.fragment}
+![Build your understanding of problem statement](images/standout_session_3.png){height="200px"}
+:::
+
+::: {.fragment}
+![Do not outsource your thinking and creativity](images/standout_session_4.png){height="200px"}
+:::
+:::
+
+:::::
+
+## {.center}
+::: {.fragment .fade-in}
+![💜](images/open-source-community.JPG){fig-align="center" height="600px"}
+:::
+
+## {.center}
+
+
+::: {.photo-free}
+![](images/apbc.JPG)
+![](images/ds-hangout.jpg)
+![](images/wwcode.png)
+![](images/rainbowr.JPG)
+![](images/rladies-team-photo.png)
+![](images/opp-scholars.JPG)
+:::
+
+## Consumption vs Creation {transition="fade"}
+::::: {.content-center}
+
+:::: {.columns .v-center .balance}
+
+::: {.column width="48%" .card .card-hl .fragment .fade-in}
+### Consuming
+Talks, docs, packages, other people's code
+
+*How I learn*
+:::
+
+::: {.column width="48%" .card .card-hl2 .fragment .fade-in}
+### Creating
+Contributing, writing, sharing back
+
+*How I can give back*
+:::
+
+::::
+::: {.fragment .fade-in .balance-line}
+I want to strike a balance between the two, and I'm more inspired to contribute more to the [open source community]{.violet}!
+:::
+
+:::::
+
+
+<!-- Mansi End-->
+
+
 ## 
 
-```carousel
-![](images/conf_ds_hangout.png)
-![](images/conf_80s.png)
-![](images/conf_selfie_conf.png)
-```
+::::: {.content-center}
 
-## Final thoughts: Mansi 
+::: {.incremental}
+- **Stay curious, stay critical** – it's OK to be a skeptic, but [engage thoughtfully]{.violet} with AI
+- **Own the problem** – the clearer your problem statement, the more useful AI becomes
+- **Keep the human in the loop** – [human expertise]{.violet} is what makes AI output trustworthy
+- **Give back** – share what you learn: blog it, talk about it, contribute to a package
+- **Find your people** – communities like [R-Ladies+]{.violet} are where the creating starts 💜
+:::
 
-Insert final thoughts like you did in your presentation! "i've often been an AI skeptic... slide 8"? 
-
+:::::
 
 ## I fear my skills will atrophy {.big-statement data-menu-title="dionne-thoughts" background-color="#e5cdff" style="font-size:60px;padding: 5px "}
 
@@ -734,6 +844,17 @@ Using AI tools with [clear intentions]{.violet} and [careful scrutiny]{.violet} 
 - Make a website! 
 - Join R/Tidy Dev Days, Data Hangouts, Hackathons
 - Compile a list of your R skills 
+
+
+<!-- Mansi and Dionne's Group Hangs! -->
+## 
+
+```carousel
+![](images/conf_ds_hangout.png)
+![](images/conf_80s.png)
+![](images/conf_selfie_conf.png)
+```
+
 
 ## Final thoughts
 

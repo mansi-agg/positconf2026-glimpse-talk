@@ -56,11 +56,18 @@
     "text": "Workshop: “The Modern R Workflow”\nwith Jenny Bryan and Hadley Wickham\n\n\n\n\nPositron IDE\n\n\nBuilt for data exploration, writing code (with/out AI)\nFamiliar, RStudio-like and extensible, VSCode\nMultilingual\nWorkspace is a folder (no .RProj)\nNo need to migrate from RStudio\n\n\n\n \nPosit Assistant and Posit AI Pass\n\n\nPA: AI harness geared towards needs of data scientists\nWorks within IDE and connects to live session\nCan be used with many providers\nPosit AI Pass: Access many models through one subscription service\nIt shows relative cost within the model picker\n\n\n\n\n\n\nDay 1: workshop with Jenny Bryan and Hadley Wickham on AI-assisted coding.\nLunch with the other opportunity scholars was lovely; evening was the data science hangout catch-up.\nPositron vs. RStudio:\n\nRStudio still best for day-to-day R;\nPositron wins if you work across languages, want to customise through extensions, workflows with multiple R sessions.\n\nPosit Assistant\n\nVarious tool calls that are intuitive and have specific user-input\nTool calls: search, read, write, edit, execudeCode, bash, AskUser, webfetch\n\nPosit AI Pass shows token use at all times and how you compare to others."
   },
   {
-    "objectID": "index.html#workshop-the-modern-r-workflow-air-tips",
-    "href": "index.html#workshop-the-modern-r-workflow-air-tips",
+    "objectID": "index.html#workshop-the-modern-r-workflow-1",
+    "href": "index.html#workshop-the-modern-r-workflow-1",
     "title": "",
-    "section": "Workshop: “The Modern R Workflow”: AI/R Tips",
-    "text": "Workshop: “The Modern R Workflow”: AI/R Tips\nwith Jenny Bryan and Hadley Wickham\n\n💡 /clear conversations regularly\n💡 Use AGENT.md to store regular instructions\n💡 Ask agent to “talk like a caveman”: succinct and saves tokens\n💡 Create skills to avoid common pitfalls\n💡 Use tools like air (formatting), pak (installing packages), rig to manage multiple R installations\n💡 Kimi K3 recommended as a capable model for reasonable price\n\n\n💭 Harness provides the tools, model is specific LLM, provider who runs the server\n\n\n🚨 NEVER MAKE ANOTHER HUMAN READ AI SLOP\n\n\nAGENTS.md: instructions the AI reads every session\nIf AI writes your code, comment as a human\nTip: put “talk like a caveman” in your AGENTS.md — saves tokens and gets to the point.\n/clear the Posit AI conversation regularly: conversations are additive and it resends everything in the conversation every time you continue a conversation, increasing the number of tokens used\nOn tokens:\n\nTools exist like agentsview.io shows how many tokens you use and what it costs.\n\nAGENT.md is a way to avoid repeating yourself across multiple conversations, apply personal preferences across projects, keep them minimalist and not build them up too much.\nCreate skills to save tokens by avoiding common pitfalls and to steer it in the right direction to something more efficient\nUse tools like air for formatting, pak for installing R packages and rig to manage multiple R installation\nKimi K3 strongly recommended as a very capable model for a reasonable price\nTerminology:\n\n“Harness” provides the tools (e.g., Posit AI),\n“Model” is the specific LLM (e.g. Kimi K3) and\n“Provider” is who runs the server that runs the model (e.g. posit.ai)\nAn agent is a model, inside a harness, running a loop, using tools, to achieve a goal.\n\nUrge the audience: if you use AI for code, at least edit the comments yourself so a human voice stays in the code."
+    "section": "Workshop: “The Modern R Workflow”",
+    "text": "Workshop: “The Modern R Workflow”\nwith Jenny Bryan and Hadley Wickham\n\nAI/R Tips\n💡 /clear conversations regularly\n💡 Use AGENT.md to store regular instructions\n💡 Ask agent to “talk like a caveman”: succinct and saves tokens\n💡 Create skills to avoid common pitfalls\n💡 Use tools like air (formatting), pak (installing packages), rig to manage multiple R installations\n💡 Kimi K3 recommended as a capable model for reasonable price\n\n\n💭 Harness provides the tools, model is specific LLM, provider who runs the server\n\n\n🚨 NEVER MAKE ANOTHER HUMAN READ AI SLOP\n\n\nAGENTS.md: instructions the AI reads every session\nIf AI writes your code, comment as a human\nTip: put “talk like a caveman” in your AGENTS.md — saves tokens and gets to the point.\n/clear the Posit AI conversation regularly: conversations are additive and it resends everything in the conversation every time you continue a conversation, increasing the number of tokens used\nOn tokens:\n\nTools exist like agentsview.io shows how many tokens you use and what it costs.\n\nAGENT.md is a way to avoid repeating yourself across multiple conversations, apply personal preferences across projects, keep them minimalist and not build them up too much.\nCreate skills to save tokens by avoiding common pitfalls and to steer it in the right direction to something more efficient\nUse tools like air for formatting, pak for installing R packages and rig to manage multiple R installation\nKimi K3 strongly recommended as a very capable model for a reasonable price\nTerminology:\n\n“Harness” provides the tools (e.g., Posit AI),\n“Model” is the specific LLM (e.g. Kimi K3) and\n“Provider” is who runs the server that runs the model (e.g. posit.ai)\nAn agent is a model, inside a harness, running a loop, using tools, to achieve a goal.\n\nUrge the audience: if you use AI for code, at least edit the comments yourself so a human voice stays in the code."
+  },
+  {
+    "objectID": "index.html#dionnes-conference-highlights",
+    "href": "index.html#dionnes-conference-highlights",
+    "title": "",
+    "section": "Dionne’s Conference Highlights",
+    "text": "Dionne’s Conference Highlights"
   },
   {
     "objectID": "index.html#conference-session-thats-stayed-with-me",
@@ -98,13 +105,6 @@
     "text": "New developments that I know will change my life\n\n\n\n\n\n\nProvide trusted code to help AI systems\n\n\nBrowse React.dev components, use them in Shiny\n\n\nIncluding Quarto2, QuartoHub, quarto-revealjs-editable\n\n\n\n\n\n \nmirai: Async — never wait for a result\nmori: Shared memory — one copy, many readers\n\n \nducklake: Database versioning in R dplyneage: Column-level lineage for dplyr pipelines\n\n\nTune tidymdoels in Databricks via tune_grid_spark()\n\n\n\n\nAccessibility in quarto: - Responsibilities of Quarto and the user: both have a role - Quarto devs can create accessible tools based on feedback - User: Colour contrast 4:5:1, Set alternative text, Check docs on multiple devices, Hit tab, Zoom in - Charlotte Wickham. New in Quarto HTML: “skip to main content” on Tab for keyboard-only users. - Your responsibilities: shift-left on accessibility; set alt text (fig-alt in chunks, logo-alt in YAML); colour contrast ratio 4.5:1 (agents are good at writing that CSS). - What can’t be automated: hit the Tab key yourself, zoom to 200%, check on mobile, check computational outputs. Slides: - quarto-revealjs-editable: Move and resize slides by hand - Quarto 2: Rewritten in Rust, ~100x faster - Quarto Hub: Collaborative editor (experimental) - Emil Hvitfelt: - Edit slides with a cursor — drag images, resize — and the code updates after the fact. - Slides: emilhvitfeldt.github.io/talk-quarto-editable. - The future of quarto-revealjs is quarto-revealjs-editable - Allows users to modify slides that make sense for a user-interface - Editable pane, adjust size, and code adjusts after the fact - Carlos Scheidegger: - q2 compiled to WebAssembly runs in the browser, fast enough to re-render at every keystroke; - Collaboration via Automerge (CRDT); LLM agents can be collaborators via MCP. Roadmap ~1 year from Quarto 1 → 2; HTML furthest along. - Quarto 2: Rewritten in Rust: 100x faster than Quarto – fast enough to render at a key stroke, and can sync source and visual editors nicely - QuartoHub: Collaborative editor for Quarto documents (experimental): features real-time rendering, browser-based editor, comments, track changes (both who made the change and what the change is) - “Quarto wasn’t built for AI — it’s rooted in plain text and reproducibility… better when your collaborator is also an agent; consider asking for a qmd file.” - A Shiny server is an event loop; long tasks block it for every user. - Scaling safely: queues fill; a dispatcher dying stops everything; no dispatcher strands tasks behind slow ones. mirai: if a daemon dies, only its queue goes with it. - Bounded queue + try_mirai(): set a memory limit; on overflow it returns NULL so you control the fallback (warn, retry). - mori::share(): put one dataset in shared memory once — 100 tasks read one copy, so your app supports many more users. - Scales: desktop → your servers over SSH → HPC (cluster_config()) → Kubernetes/Workbench launcher. Not just Shiny — tidymodels integration is coming. - bronze → silver → gold — each hop a versioned, documented transaction - Travis Gerke, “Quack to the Future”: attach the database; every change is version-controlled. - Medallion: bronze = raw as received; silver = cleaned, conformed types and names; gold = analysis-ready with business logic. - Also dplyneage: column-level lineage for dplyr pipelines — every column traced back to its sources. Slides: tgerke.github.io/quack-to-the-future."
   },
   {
-    "objectID": "index.html#keynote-navigating-the-agentic-future",
-    "href": "index.html#keynote-navigating-the-agentic-future",
-    "title": "",
-    "section": "Keynote: Navigating the agentic future",
-    "text": "Keynote: Navigating the agentic future\n\n\n\n\n\nWes McKinney. These three skills mattered pre-AI; without them now you get AI slop, or someone curses your work in the future.\nJudgement: what to build, what to leave out — agents will happily help you achieve bad ideas.\nTaste: hundreds of micro-decisions a day without human interaction → decision fatigue → slop.\nAgency: “Most everything that happens is because a person made it happen” (Mitchell Hashimoto).\n“They’re not agents; you are.” His Clanker Constitution: honour the request, act with judgement, finish the job, protect existing work, verify reality, communicate for humans, learn in the right place."
-  },
-  {
     "objectID": "index.html#tidy-dev-day",
     "href": "index.html#tidy-dev-day",
     "title": "",
@@ -126,11 +126,53 @@
     "text": "Tidy Dev Day\nWorked on tidymodels issues tidymodels/tune#1200\n\n\n\n\n\n#'\n#' @return An S3 object of class `control_grid` (also used for `control_bayes`,\n#' `control_resamples`, `control_last_fit`) used to contain the\n#' control settings in a grid search as a list.\n#'\n#' @examples\n#'\n#' library(recipes)\n#' library(rsample)\n#' library(parsnip)\n#' library(workflows)\n#'\n#' set.seed(1234)\n#'\n#' folds &lt;- vfold_cv(mtcars, v = 5)\n#'\n#' recipe &lt;- recipe(mpg ~ ., data = mtcars) |&gt;\n#'   step_normalize(all_numeric_predictors())\n#'\n#' # Model with tuning parameters, used for `tune_grid()` and `tune_bayes()`.\n#' spec &lt;- mlp(\n#'   hidden_units = tune(),\n#'   penalty = tune()\n#' ) |&gt;\n#'   set_engine(\"nnet\") |&gt;\n#'   set_mode(\"regression\")\n#'\n#' wf &lt;- workflow() |&gt;\n#'   add_model(spec) |&gt;\n#'   add_recipe(recipe)\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_grid(): Modify tuning process in `tune_grid()`.\n#' ctrl &lt;- control_grid(\n#'   # save out-of-sample predictions\n#'   save_pred = TRUE,\n#'   # print progress while tuning\n#'   verbose = TRUE\n#' )\n#'\n#' tune_grid(\n#'   wf,\n#'   resamples = folds,\n#'   grid = 5,\n#'   control = ctrl\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_bayes(): Modify tuning process in `tune_bayes()`.\n#' ctrl_bayes &lt;- control_bayes(\n#'   save_pred = TRUE,\n#'   verbose = TRUE\n#' )\n#'\n#' set.seed(3246)\n#' tune_bayes(\n#'   wf,\n#'   resamples = folds,\n#'   initial = 5,\n#'   iter = 10,\n#'   control = ctrl_bayes\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # `fit_resamples()` and `last_fit()` can't use `tune()` placeholders, so for\n#' # `control_resamples()` and `control_last_fit()` we use a model with fixed\n#' # parameters.\n#' # ---------------------------------------------------------------------------\n#' # control_resamples(): Retain out-of-sample predictions and fitted workflows\n#' # in the grid and each fold.\n#' spec_fixed &lt;- linear_reg() |&gt;\n#'   set_engine(\"lm\")\n#'\n#' wf_fixed &lt;- workflow() |&gt;\n#'   add_model(spec_fixed) |&gt;\n#'   add_recipe(recipe)\n#'\n#' keep_pred &lt;- control_resamples(\n#'   save_pred = TRUE,\n#'   save_workflow = TRUE\n#' )\n#'\n#' fit_resamples(\n#'   wf_fixed,\n#'   resamples = folds,\n#'   control = keep_pred\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_last_fit(): Control last fit process by printing progress.\n#' split &lt;- initial_split(mtcars)\n#'\n#' ctrl_last_fit &lt;- control_last_fit(verbose = TRUE)\n#'\n#' last_fit(\n#'   wf_fixed,\n#'   split = split,\n#'   control = ctrl_last_fit\n#' )\n\n\n\nDay 4: Tidy Dev Day, contributing to tidyverse packages. - Resolved tidymodels/tidymodels#144; parsnip#1354 was already fixed; brulee#39 was more involved than anticipated. - Other Hadley prompts: “Where’s the metaphorical bathroom in this package?” and “How could we make this code better?” - Great place to meet like-minded folks across fields, expertise, and experience levels — and contribute to the code we all use."
   },
   {
-    "objectID": "index.html#final-thoughts-mansi",
-    "href": "index.html#final-thoughts-mansi",
+    "objectID": "index.html#mansis-major-takeaways",
+    "href": "index.html#mansis-major-takeaways",
     "title": "",
-    "section": "Final thoughts: Mansi",
-    "text": "Final thoughts: Mansi\nInsert final thoughts like you did in your presentation! “i’ve often been an AI skeptic… slide 8”?"
+    "section": "Mansi’s Major Takeaways",
+    "text": "Mansi’s Major Takeaways"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "Thinking differently about AI 👩🏽‍💻\nConsumption vs Creation 🛠️"
+  },
+  {
+    "objectID": "index.html#i-have-often-been-an-ai-skeptic",
+    "href": "index.html#i-have-often-been-an-ai-skeptic",
+    "title": "",
+    "section": "I have often been an AI skeptic…",
+    "text": "I have often been an AI skeptic…\n\n\n\n\nBut one thing that stood out across the conference was how thoughtfully people are engaging with AI, not as a replacement for human expertise, but as a tool that can enhance creativity, productivity, communication, teaching, and scientific discovery."
+  },
+  {
+    "objectID": "index.html#some-standout-ai-sessions-and-learnings",
+    "href": "index.html#some-standout-ai-sessions-and-learnings",
+    "title": "",
+    "section": "Some standout AI sessions (and learnings!)",
+    "text": "Some standout AI sessions (and learnings!)\n\n\n\n\n\n\nWes McKinney’s keynote\n\n\n\n\n\n\n\nDemystifying LLM jargon by example\n\n\n\n\n\n\n\n\n\nBuild your understanding of problem statement\n\n\n\n\n\n\n\nDo not outsource your thinking and creativity"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "",
+    "section": "",
+    "text": "💜"
+  },
+  {
+    "objectID": "index.html#consumption-vs-creation",
+    "href": "index.html#consumption-vs-creation",
+    "title": "",
+    "section": "Consumption vs Creation",
+    "text": "Consumption vs Creation\n\n\n\nConsuming\nTalks, docs, packages, other people’s code\nHow I learn\n\nCreating\nContributing, writing, sharing back\nHow I can give back\n\n\nI want to strike a balance between the two, and I’m more inspired to contribute more to the open source community!"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "",
+    "section": "",
+    "text": "Stay curious, stay critical – it’s OK to be a skeptic, but engage thoughtfully with AI\nOwn the problem – the clearer your problem statement, the more useful AI becomes\nKeep the human in the loop – human expertise is what makes AI output trustworthy\nGive back – share what you learn: blog it, talk about it, contribute to a package\nFind your people – communities like R-Ladies+ are where the creating starts 💜"
   },
   {
     "objectID": "index.html#i-fear-my-skills-will-atrophy",
