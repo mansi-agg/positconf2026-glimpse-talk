@@ -19,6 +19,18 @@
   width: auto !important;
 }
 
+/* White logo on dark (purple) slides */
+.reveal.has-dark-background .slide-logo {
+  filter: brightness(0) invert(1);
+}
+
+/* White footer on dark (purple) slides */
+.reveal.has-dark-background .footer,
+.reveal.has-dark-background .footer p,
+.reveal.has-dark-background .footer a {
+  color: #fff !important;
+}
+
 /* --- Foreground colours (RLadies+ glamour palette) --- */
 
 .violet {

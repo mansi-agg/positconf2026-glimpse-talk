@@ -714,6 +714,14 @@ Worked on tidymodels issues `tidymodels/tune#1200`
 :::
 
 
+## I fear my skills will atrophy {.big-statement data-menu-title="dionne-thoughts" background-color="#e5cdff" style="font-size:60px;padding: 5px "}
+
+But it became clear that the [fundamentals]{.violet} will never cease to be [important]{.violet}. 
+
+. . . 
+
+Using AI tools with [clear intentions]{.violet} and [careful scrutiny]{.violet} can help us achieve our goals.
+
 <!-- Dionne End -->
 
 
@@ -829,14 +837,6 @@ I want to strike a balance between the two, and I'm more inspired to contribute 
 :::
 
 :::::
-
-## I fear my skills will atrophy {.big-statement data-menu-title="dionne-thoughts" background-color="#e5cdff" style="font-size:60px;padding: 5px "}
-
-But it became clear that the [fundamentals]{.violet} will never cease to be [important]{.violet}. 
-
-. . . 
-
-Using AI tools with [clear intentions]{.violet} and [careful scrutiny]{.violet} can help us achieve our goals.
 
 ## Advice for Opportunity Scholars 2027
 

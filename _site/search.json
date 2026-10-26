@@ -126,6 +126,13 @@
     "text": "Tidy Dev Day\nWorked on tidymodels issues tidymodels/tune#1200\n\n\n\n\n\n#'\n#' @return An S3 object of class `control_grid` (also used for `control_bayes`,\n#' `control_resamples`, `control_last_fit`) used to contain the\n#' control settings in a grid search as a list.\n#'\n#' @examples\n#'\n#' library(recipes)\n#' library(rsample)\n#' library(parsnip)\n#' library(workflows)\n#'\n#' set.seed(1234)\n#'\n#' folds &lt;- vfold_cv(mtcars, v = 5)\n#'\n#' recipe &lt;- recipe(mpg ~ ., data = mtcars) |&gt;\n#'   step_normalize(all_numeric_predictors())\n#'\n#' # Model with tuning parameters, used for `tune_grid()` and `tune_bayes()`.\n#' spec &lt;- mlp(\n#'   hidden_units = tune(),\n#'   penalty = tune()\n#' ) |&gt;\n#'   set_engine(\"nnet\") |&gt;\n#'   set_mode(\"regression\")\n#'\n#' wf &lt;- workflow() |&gt;\n#'   add_model(spec) |&gt;\n#'   add_recipe(recipe)\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_grid(): Modify tuning process in `tune_grid()`.\n#' ctrl &lt;- control_grid(\n#'   # save out-of-sample predictions\n#'   save_pred = TRUE,\n#'   # print progress while tuning\n#'   verbose = TRUE\n#' )\n#'\n#' tune_grid(\n#'   wf,\n#'   resamples = folds,\n#'   grid = 5,\n#'   control = ctrl\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_bayes(): Modify tuning process in `tune_bayes()`.\n#' ctrl_bayes &lt;- control_bayes(\n#'   save_pred = TRUE,\n#'   verbose = TRUE\n#' )\n#'\n#' set.seed(3246)\n#' tune_bayes(\n#'   wf,\n#'   resamples = folds,\n#'   initial = 5,\n#'   iter = 10,\n#'   control = ctrl_bayes\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # `fit_resamples()` and `last_fit()` can't use `tune()` placeholders, so for\n#' # `control_resamples()` and `control_last_fit()` we use a model with fixed\n#' # parameters.\n#' # ---------------------------------------------------------------------------\n#' # control_resamples(): Retain out-of-sample predictions and fitted workflows\n#' # in the grid and each fold.\n#' spec_fixed &lt;- linear_reg() |&gt;\n#'   set_engine(\"lm\")\n#'\n#' wf_fixed &lt;- workflow() |&gt;\n#'   add_model(spec_fixed) |&gt;\n#'   add_recipe(recipe)\n#'\n#' keep_pred &lt;- control_resamples(\n#'   save_pred = TRUE,\n#'   save_workflow = TRUE\n#' )\n#'\n#' fit_resamples(\n#'   wf_fixed,\n#'   resamples = folds,\n#'   control = keep_pred\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_last_fit(): Control last fit process by printing progress.\n#' split &lt;- initial_split(mtcars)\n#'\n#' ctrl_last_fit &lt;- control_last_fit(verbose = TRUE)\n#'\n#' last_fit(\n#'   wf_fixed,\n#'   split = split,\n#'   control = ctrl_last_fit\n#' )\n\n\n\nDay 4: Tidy Dev Day, contributing to tidyverse packages. - Resolved tidymodels/tidymodels#144; parsnip#1354 was already fixed; brulee#39 was more involved than anticipated. - Other Hadley prompts: “Where’s the metaphorical bathroom in this package?” and “How could we make this code better?” - Great place to meet like-minded folks across fields, expertise, and experience levels — and contribute to the code we all use."
   },
   {
+    "objectID": "index.html#i-fear-my-skills-will-atrophy",
+    "href": "index.html#i-fear-my-skills-will-atrophy",
+    "title": "",
+    "section": "I fear my skills will atrophy",
+    "text": "I fear my skills will atrophy\nBut it became clear that the fundamentals will never cease to be important.\n\nUsing AI tools with clear intentions and careful scrutiny can help us achieve our goals."
+  },
+  {
     "objectID": "index.html#mansis-major-takeaways",
     "href": "index.html#mansis-major-takeaways",
     "title": "",
@@ -173,13 +180,6 @@
     "title": "",
     "section": "",
     "text": "Stay curious, stay critical – it’s OK to be a skeptic, but engage thoughtfully with AI\nOwn the problem – the clearer your problem statement, the more useful AI becomes\nKeep the human in the loop – human expertise is what makes AI output trustworthy\nGive back – share what you learn: blog it, talk about it, contribute to a package\nFind your people – communities like R-Ladies+ are where the creating starts 💜"
-  },
-  {
-    "objectID": "index.html#i-fear-my-skills-will-atrophy",
-    "href": "index.html#i-fear-my-skills-will-atrophy",
-    "title": "",
-    "section": "I fear my skills will atrophy",
-    "text": "I fear my skills will atrophy\nBut it became clear that the fundamentals will never cease to be important.\n\nUsing AI tools with clear intentions and careful scrutiny can help us achieve our goals."
   },
   {
     "objectID": "index.html#advice-for-opportunity-scholars-2027",
