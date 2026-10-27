@@ -123,7 +123,7 @@
     "href": "index.html#i-feared-my-skills-will-atrophy",
     "title": "",
     "section": "I feared my skills will atrophy",
-    "text": "I feared my skills will atrophy\nBut it became clear that the fundamentals will never cease to be important.\n\nUsing AI tools with clear intentions and careful scrutiny can help us achieve our goals."
+    "text": "I feared my skills will atrophy\nBut it became clear that the fundamentals will never cease to be important.\n\nUsing AI tools with clear intentions and careful scrutiny can help us achieve our goals.\n\n\n\n“Before trusting the scores, validate the Judge” Humans have never been more important in the unstable AI era"
   },
   {
     "objectID": "index.html#mansis-major-takeaways",
@@ -182,17 +182,10 @@
     "text": "Advice for Opportunity Scholars 2027\n\nBe active in your R communities\nMake a website!\nJoin R/Tidy Dev Days, Data Hangouts, Hackathons\nCompile a list of your R skills"
   },
   {
-    "objectID": "index.html#final-thoughts",
-    "href": "index.html#final-thoughts",
-    "title": "",
-    "section": "Final thoughts",
-    "text": "Final thoughts\n\nHumans have never been more important in the unstable AI era\n\n\n\n“Before trusting the scores, validate the Judge”\n\n\nAll talks will be available on YouTube in December!"
-  },
-  {
     "objectID": "index.html#FinalSlide",
     "href": "index.html#FinalSlide",
     "title": "",
     "section": "posit::conf(2026) %>% glimpse(questions = \"?\")",
-    "text": "posit::conf(2026) %&gt;% glimpse(questions = \"?\")\n\n\nThank the organisers, opportunity scholarship, R-Ladies+ Melbourne.\nInvite questions; links to all talks available.\nThank rladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !!"
+    "text": "posit::conf(2026) %&gt;% glimpse(questions = \"?\")\n\n\n\n\n\n\n\nAll talks will be available on YouTube in December!\nThank the organisers, opportunity scholarship, R-Ladies+ Melbourne.\nInvite questions; links to all talks available.\nThank r-ladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !!"
   }
 ]

@@ -1,4 +1,5 @@
 ---
+pagetitle: "posit::conf(2026) %>% glimpse()"
 format: glamour-revealjs
 date: today
 execute:
@@ -716,6 +717,12 @@ Using AI tools with [clear intentions]{.violet} and [careful scrutiny]{.violet} 
 
 <!-- Dionne End -->
 
+::: {.notes}
+- "Before trusting the scores, validate the Judge"
+Humans have never been [more important]{.violet} in the unstable AI era
+
+:::
+
 <!-- Mansi -->
 ## Mansi's Major Takeaways {.center}
 
@@ -835,7 +842,6 @@ I want to strike a balance between the two, and I'm more inspired to contribute 
 - Join R/Tidy Dev Days, Data Hangouts, Hackathons
 - Compile a list of your R skills 
 
-
 <!-- Mansi and Dionne's Group Hangs! -->
 ## 
 
@@ -845,21 +851,13 @@ I want to strike a balance between the two, and I'm more inspired to contribute 
 ![](images/conf_selfie_conf.png)
 ```
 
-
-## Final thoughts
-
-- Humans have never been [more important]{.violet} in the unstable AI era
-
-. . . 
-
-> "Before trusting the scores, validate the Judge"
-
-- All talks will be available on YouTube in December! 
-
 ## `posit::conf(2026) %>% glimpse(questions = "?")`{style="background:transparent; padding:0; font-size:inherit; color:inherit;"} {#FinalSlide .big-statement data-menu-title="Thank-you" background-color="#881ef9" style="font-size:50px;padding: 5px "}
 
+![](images/posit.jpg){height="180px" fig-align="center"}
+
 ::: {.notes}
+- All talks will be available on YouTube in December! 
 - Thank the organisers, opportunity scholarship, R-Ladies+ Melbourne.
 - Invite questions; links to all talks available.
-- Thank rladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !! 
+- Thank r-ladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !! 
 :::

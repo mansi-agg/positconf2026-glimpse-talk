@@ -3,6 +3,7 @@ project:
   output-dir: _site
 
 website:
+  favicon: images/logo_rladies_3.svg
   navbar:
     left:
       - href: index.qmd
