@@ -232,3 +232,15 @@
   justify-content: center;
   height: 560px;   /* slide height (700px) minus room for the title */
 }
+/* --- Slop warning card --- */
+.reveal .slides section .slop-card {
+  background: #881ef9;
+  color: #ededf4;
+  font-weight: 700;
+  text-align: center;
+  padding: 24px 32px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .25);
+  max-width: 80%;
+  margin: 1em auto;
+}

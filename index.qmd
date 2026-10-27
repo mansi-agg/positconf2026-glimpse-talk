@@ -12,6 +12,7 @@ filters:
   - quarto
   - tegaki
   - more-fragments
+  - sticky-notes
 ---
 
 ## `posit::conf(2026) %>% glimpse()`{style="background:transparent; padding:0; font-size:inherit; color:inherit;"} {#TitleSlide data-menu-title="Welcome" background-color="#881ef9" style="font-size:64px;padding: 5px "}
@@ -43,7 +44,6 @@ Today we will discuss our journeys [before]{.rose-emph}, [during]{.blue-emph} an
 :::::
 
 ## About [Mansi]{.violet}
-
 
 ::::: rows
 
@@ -159,45 +159,37 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 
 ## `posit::conf(2026) %>% glimpse()`{style="background:transparent; padding:0; font-size:inherit; color:inherit;"} {.big-statement data-menu-title="The Conference" background-color="#881ef9" style="font-size:55px;padding: 5px "}
 
-## Workshop: "The Modern R Workflow" 
-
+## Workshop: "The Modern R Workflow"
 *with Jenny Bryan and Hadley Wickham*
 
-::: {.fragment}
-::::::: columns
-::: {.column}
-![](images/logo_positron.png){height="100px"}
+::::: {.content-center}
 
-[Positron IDE]{.violet}
+![](images/screenshot_positron_pa.png)
 
-:::: {style="font-size: 0.7em;"}
-- Built for data exploration, writing code (with/out AI)
-- Familiar, RStudio-like and extensible, VSCode
-- Multilingual 
-- Workspace is a folder (no .RProj)
-- *No need to migrate from RStudio*
-::::
+:::::
+
+. . .
+
+::: {.sticky color="#c8e6c9" top="120px" left="65%" width="16em" tilt="-3"}
+[Positron IDE]{.violet-emph}: Built for data exploration, multilingual, workspaces are folders 
 :::
 
-::: {.column}
-![](images/logo_posit_assistant.png){height="100px"} ![](images/logo_posit_ai_pass.png){height="100px"}
+. . .
 
-[Posit Assistant]{.violet} and [Posit AI Pass]{.violet}
+::: {.sticky color="#c8e6c9" top="350px" left="65%" width="16em" tilt="-3"}
+[Posit Assistant]{.violet} AI **harness** works within IDE, connects to session, can be used with many providers. 
 
-:::: {style="font-size: 0.7em;"}
-- PA: AI **harness** geared towards needs of data scientists
-- Works within IDE and connects to live session 
-- Can be used with many providers 
-- Posit AI Pass: Access many **models** through **one** subscription service
-- It shows relative cost within the model picker
-::::
-:::
-:::::::
+[Posit AI Pass]{.violet} allow you to access many **models** through **one** subscription service
 :::
 
 ::: {.notes}
 - Day 1: workshop with Jenny Bryan and Hadley Wickham on AI-assisted coding.
-- Lunch with the other opportunity scholars was lovely; evening was the data science hangout catch-up.
+- Built for data exploration, writing code (with/out AI)
+- Familiar, RStudio-like and extensible, VSCode
+- Multilingual 
+- PA: Workspace is a folder (no .RProj)
+- *No need to migrate from RStudio*
+- It shows relative cost within the model picker
 - Positron vs. RStudio: 
   - RStudio still best for day-to-day R; 
   - Positron wins if you work across languages, want to customise through extensions, workflows with multiple R sessions.
@@ -223,17 +215,13 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 
 💡 Create skills to avoid common pitfalls 
 
-💡 Use tools like `air` (formatting), `pak` (installing packages), `rig` to manage multiple R installations 
-
-💡 Kimi K3 recommended as a capable model for reasonable price 
+💡 `{air}` (formatting), `{pak}` (installing packages), `{rig}` (multiple R installations)
 
 . . .
 
-💭 **Harness** provides the tools, **model** is specific LLM, **provider** who runs the server 
-
-. . . 
-
-🚨 [NEVER MAKE ANOTHER HUMAN READ AI SLOP]{.violet-emph}
+::: {.slop-card}
+NEVER MAKE ANOTHER HUMAN READ AI SLOP
+:::
 
 ::: {.notes}
 
