@@ -81,25 +81,30 @@ Today we will discuss our journeys [before]{.rose-emph}, [during]{.blue-emph} an
 
 ::: {.row height="50%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
 ::: {.fragment}
-![](images/hex_serotrackr.png){height="250px"}
+![Serology data analysis [tool](https://dionnecargy.github.io/SeroTrackR/)](images/hex_serotrackr.png){height="250px"}
 :::
 
 ::: {.fragment}
-![](images/hex_wastewateR.png){height="250px"}
+![Fit-for-purpose [tool](https://verixiv.org/articles/3-313/v2)](images/hex_PvSeroApp.png){height="250px"}
 :::
 
 ::: {.fragment}
-![](images/hex_melbourne.png){height="250px"}
+![Wastewater-specific data analysis [tool](https://github.com/dionnecargy/wastewateR)](images/hex_wastewateR.png){height="250px"}
 :::
+
 :::
 
 ::: {.row height="50%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
 ::: {.fragment}
-![](images/hex_PvSeroApp.png){height="250px"}
+![Tram colour palette [package](https://github.com/dionnecargy/melbourne)](images/hex_melbourne.png){height="250px"}
 :::
 
 ::: {.fragment}
-![](images/hex_vitae.svg){height="250px"}
+![Executive since 2023, Volunteering, [Website](https://r-ladiesmelbourne.github.io/)](images/logo_rladies_1.svg){height="250px"}
+:::
+
+::: {.fragment}
+![Wrote my CV using this, available on my [website](https://dionnecargy.github.io/)](images/hex_vitae.svg){height="250px"}
 :::
 :::
 :::::
@@ -253,45 +258,73 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 
 ## Dionne's Conference Highlights {.center}
 
-## Conference session that's stayed with me 
+## Session that's stayed with me: Teaching at the Frontier
 <!-- Dionne -->
 
-*Teaching at the Frontier: with Mine Cetinkaya-Rundel, Marc Dotson, Derrick Cogburn, Christian Martinez*
+*with Mine Cetinkaya-Rundel, Marc Dotson, Derrick Cogburn, Christian Martinez*
 
-> The problem: Teaching how to code in the AI era
+::::: {.content-center}
 
-**Possible solutions and tools**: 
+:::: {.columns .v-center .balance}
 
-- Instruction guide on best AI practices
-- Emphasise coding workflow best practices 
-- Build prompt engineering into the course throughout 
-- AI assistants in working sessions via `AGENT.md` files with pedagogical values
-- Assess the [judgement]{.violet-emph} of code as well as [syntax]{.violet-emph} 
-
-::: {.notes}
-- Mine: integrate the AI guide all semester (not one lecture); emphasise workflow, especially version control; shift AI from shortcut to learning support — e.g. an AGENTS.md tutor in the student repo with pedagogical guardrails.
-- Derrick: prompting is core curriculum; chain-of-thought reasoning step-by-step; quarto as the throughline. Built two assistants: SmartText knows the course; Posit Assistant knows your code, data, plots.
-- Mine is now teaching R in Positron — positron is taking over everything.
-- The problem: Teaching in the AI era is difficult, when students are learning to code but can simply go to AI who can do a pretty good job, but students don’t have the skill set to learn when AI is wrong
-- Don't expect memorisation; expect knowing how to use and verify code.
-- Could shift our subject from biological content toward tools and techniques that elevate reporting, sci comm, and publication.
-- Prompting pedagogy worth stealing: chain-of-thought, few-shot examples, domain-specific vocabulary, iterative prompting, and teaching token costs (money and environment).
+::: {.column width="48%" .card .card-hl .fragment .fade-in}
+### Problem 1: 
+Teaching how to code in the AI era
 :::
 
-## Conference session that's stayed with me
+::: {.column width="48%" .card .card-hl2 .fragment .fade-in}
+### Solution: 
+Teach clear AI best-practices, coding workflow, assess [judgement]{.violet-emph} and [syntax]{.violet-emph}  
+:::
+::::
 
-*Teaching at the Frontier: with Mine Cetinkaya-Rundel, Marc Dotson, Derrick Cogburn, Christian Martinez*
+<div style="height: 2em;"></div>
 
-> The problem: Students learn for a semester, but forget after. 
+:::: {.columns .v-center .balance}
 
-- As semester progresses, encourage students to build a quarto book of materials
-- Encourage students to reflect on their work and create a profile they can refer back to
+::: {.column width="48%" .card .card-hl .fragment .fade-in}
+### Problem 2: 
+Students learn for a semester, but forget after. 
+:::
+
+::: {.column width="48%" .card .card-hl2 .fragment .fade-in}
+### Solution: 
+Encourage students to reflect, promote active learning through encouragement and feedback
+:::
+
+::::
+
+::: {.fragment .fade-in .balance-line}
+Directly impact my developing pedagogical values as a teacher: 
+
+Shifting AI as a shortcut to [learning support]{.violet-emph}, and fostering [creativity]{.violet-emph}. 
+:::
+
+:::::
 
 ::: {.notes}
-- Loved the "accidental author" model: weekly assignment → feedback → revision/resubmission → republish → final public-facing quarto book each student can link from their CV.
+This session was eye-opening for me as an academic supervisor and emerging tertiary teacher. 
+This year was my first year as the Head tutor of Coding and Data Analysis in Biomedicine and next year I will assume the role of co-coordinator. 
+I wanted to learn how to teach code effectively and utilise the new tools at our disposal. 
+
+The problem is teaching in the AI era is difficult, when students are learning to code but can simply go to AI who can do a pretty good job, but students don’t have the skill set to learn when AI is wrong. 
+
+The solution from these experienced teachers suggested to: 
+- Integrate AI guide and prompt engineering into classes throughout semester, provide explicit best AI practices 
+- Don't expect memorisation; expect knowing how to use and verify code, and assessments can both evaluate the judgement and syntax 
+- There is a clear emphasis on teaching students about workflows and version controls, and shift AI from a shortcut to a learning support 
+- Examples of using an AGENTS.md file or other built-in AI agents with integrated pedagogical guardrails 
+
+Another problem is that often when we teach code, students are motivated and learn a lot, but then after the class they forget everything. 
+
+Christian Martinez had a striking talk about encouraging students to reflect on their work, and create a profile they can refer back to. He called this the "accidental author" model where students were invited to revise or resubmit previous weekly assignments, and create a public-facing quarto book that they can refer back to, or even add to their CV as a tangible output from the class. Because students make their own books, they get creative and go down fun rabbit holes.
+
+This session directly will impact how I approach my role as co-coordinator next year: i want to balance AI use with fostering creativity 
 :::
 
 ## New developments that I know will change my life 
+
+<!-- This will be rapid fire without a lot of detail! -->
 
 ::::: rows
 
@@ -300,19 +333,19 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 :::::: columns
 
 ::: {.column width="33%" .fragment}
-![](images/hex_commons.png){height="200px"}
+![](images/hex_commons.png){height="180px"}
 
 Provide [trusted code]{.violet} to help AI systems
 ::: 
 
 ::: {.column width="33%" .fragment}
-![](images/hex_shiny_react.svg){height="200px"}
+![](images/hex_shiny_react.svg){height="180px"}
 
 Browse React.dev components, use them in Shiny
 ::: 
 
 ::: {.column width="33%"}
- ![](images/hex_blank.png){height="200px"}
+ ![](images/hex_blank.png){height="180px"}
 ::: 
 ::::::
 
@@ -320,44 +353,42 @@ Browse React.dev components, use them in Shiny
 
 ::: {.row height="50%" style="display: flex; justify-content: center; align-items: center; gap: 2em; font-size: 0.7em"}
 ::: {.column width="40%"}
-![](images/hex_blank.png){height="200px"}
-![](images/hex_blank.png){height="200px"}
+![](images/hex_blank.png){height="180px"}
+![](images/hex_blank.png){height="180px"}
 ::: 
 ::: {.column width="40%"}
- ![](images/hex_blank.png){height="200px"}
-![](images/hex_blank.png){height="200px"}
+ ![](images/hex_blank.png){height="180px"}
+![](images/hex_blank.png){height="180px"}
 ::: 
 ::: {.column width="20%"}
- ![](images/hex_blank.png){height="200px"}
+ ![](images/hex_blank.png){height="180px"}
 ::: 
 :::
 
 :::::
 
 :::{.notes}
-1. Introducing the `commons` R package: 
-- *How can we design AI systems to produce better work?*
+1. Introducing the `{commons}` R package: 
+- *Innovation*: Trusted code for AI systems
+- *Why it matters*: Ensures AI has reliable, vetted resources to work with 
+- Asked the question: *How can we design AI systems to produce better work?*
 - Help the agent be correct and make it less bad when wrong (sound statistics, reproducible practices, trusted code)
-- Do this by providing [trusted code]{.violet} known to be correct
-- Make it less bad when it's wrong (share your environment and prompts so it nudges you to good choices)
+- By providing trusted code known to be correct
 - Signals in response of high and low trust
-- As a teacher/supervisor: This will directly help me ensure students are on the right path when learning how to code.
-- My angle as a teacher: a way to ensure AI-generated content students rely on is accurate and aligned with what we teach.
+- As a teacher/supervisor: A way to ensure AI-generated content students rely on is accurate and aligned with what we teach.
 
-2. Introducing the `shinyreact` R package: 
-- Browse React.dev components, use them in Shiny
-- 1:1 UI ↔ server binding with `reactive_output()`
-- `.tsx` JavaScript file 
-- Slides [here](https://schloerke.com/presentation-2026-09-15-posit-conf-shinyreact)
-- React: 100M+ downloads per month vs. Shiny's 50M in 14 years.
-- Before: 
-    - Server does reactive computation, client handles UI, loosely coupled. 
-    - Before `shinyreact`: server.R handles reactive computation and the ui.R defines the visual structure by using built-in functions (fluidPage(), sidebarLayout()). 
-- With `shinyreact`: Replace ui.R with a React component that you write yourself, giving complete freedom of design using the vast React ecosystem.
-  - Now each UI component can be directly linked to its server logic — more efficient, more responsive apps.
+2. Introducing the `{shinyreact}` R package: 
+- *Innovation*: use React.dev components directly in shiny
+- *Why it matters*: Access modern web components without rebuilding them
+- React is a JavaScript library for building interactive user interfaces with reusable components 
+- and is incredibly popular, with over 100 million downloads per month. 
+- Compared with shiny's 50 million downloads in 14 years, that's a lot. 
+- It has a massive ecosystem of pre-built components that you can use.
+- `{shinyreact}` lets us bring React into shiny whilst keeping the R server logic intact, 
+- giving us a way more design flexibility and responsiveness than Shiny's current built-in UI functions alone
 :::
 
-## Shiny in Pieces: `shinyreact`
+## Shiny in Pieces: `{shinyreact}`
 
 ::: magic-move 
 
@@ -439,8 +470,10 @@ shinyApp(page_react(), server)
 ::: 
 
 ::: {.notes}
-- Screenshot over code here: the conceptual shift is visual.
-- AI agents can write the .tsx code 
+- This giant chunk of code becomes way simpler, and your UI and server stay nicely separated 
+- Because instead of writing all your UI logic in R, you can move it to a seprate `.tsx` Javascript file
+- which can even be generated with AI 
+- and then bind your server logic to it using `reactive_output()`
 :::
 
 ## New developments that I know will change my life 
@@ -453,19 +486,19 @@ shinyApp(page_react(), server)
 :::::: columns
 
 ::: {.column width="33%"}
-![](images/hex_commons.png){height="200px"}
+![](images/hex_commons.png){height="180px"}
 
 Provide [trusted code]{.violet} to help AI systems
 ::: 
 
 ::: {.column width="33%"}
-![](images/hex_shiny_react.svg){height="200px"}
+![](images/hex_shiny_react.svg){height="180px"}
 
 Browse React.dev components, use them in Shiny
 ::: 
 
 ::: {.column width="33%" .fragment}
-![](images/logo_quarto.png){height="200px"}
+![](images/logo_quarto.png){height="180px"}
 
 Including Quarto2, QuartoHub, `quarto-revealjs-editable`
 ::: 
@@ -479,28 +512,29 @@ Including Quarto2, QuartoHub, `quarto-revealjs-editable`
 
 ::: {.column width="40%" .fragment}
 
-![](images/hex_mirai.svg){height="200px"}
-![](images/hex_mori.svg){height="200px"}
+![](images/hex_mirai.svg){height="180px"}
+![](images/hex_mori.svg){height="180px"}
 
-`mirai`: Async — never wait for a result
+`{mirai}`: Async, never wait for a result
 
-`mori`: Shared memory — one copy, many readers
+`{mori}`: Shared memory: one copy, many readers
 
 :::
 
 ::: {.column width="40%" .fragment}
-![](images/hex_ducklake.png){height="200px"}
-![](images/dplyneage.svg){height="200px"}
+![](images/hex_ducklake.png){height="180px"}
+![](images/dplyneage.svg){height="180px"}
 
-`ducklake`: Database versioning in R
-`dplyneage`: Column-level lineage for dplyr pipelines
+`{ducklake}`: Database versioning in R
+
+`{dplyneage}`: Column-level lineage for `{dplyr}`
 :::
 
 
 ::: {.column width="20%" .fragment}
-![](images/hex_sparklyr.png){height="200px"}
+![](images/hex_sparklyr.png){height="180px"}
 
-Tune tidymdoels in Databricks via `tune_grid_spark()` 
+Tune `{tidymodels}` in Databricks via `tune_grid_spark()` 
 :::
 
 ::::::
@@ -509,55 +543,27 @@ Tune tidymdoels in Databricks via `tune_grid_spark()`
 :::::
 
 ::: {.notes}
-Accessibility in quarto: 
-- Responsibilities of Quarto *and* the user: both have a role
-- Quarto devs can create accessible tools based on feedback
-- User: Colour contrast 4:5:1, Set alternative text, Check docs on multiple devices, Hit tab, Zoom in
-- Charlotte Wickham. New in Quarto HTML: "skip to main content" on Tab for keyboard-only users.
-- Your responsibilities: shift-left on accessibility; set alt text (fig-alt in chunks, logo-alt in YAML); colour contrast ratio 4.5:1 (agents are good at writing that CSS).
-- What can't be automated: hit the Tab key yourself, zoom to 200%, check on mobile, check computational outputs.
-Slides: 
-- **quarto-revealjs-editable**: Move and resize slides *by hand*
-- **Quarto 2**: Rewritten in Rust, ~100x faster
-- **Quarto Hub**: Collaborative editor (experimental)
-- Emil Hvitfelt: 
-  - Edit slides with a cursor — drag images, resize — and the code updates after the fact. 
-  - Slides: emilhvitfeldt.github.io/talk-quarto-editable.
-  - The future of quarto-revealjs is quarto-revealjs-editable
-  - Allows users to modify slides that make sense for a user-interface
-  - Editable pane, adjust size, and code adjusts after the fact
-- Carlos Scheidegger: 
-  - q2 compiled to WebAssembly runs in the browser, fast enough to re-render at every keystroke; 
-  - Collaboration via Automerge (CRDT); LLM agents can be collaborators via MCP. Roadmap ~1 year from Quarto 1 → 2; HTML furthest along.
-  - Quarto 2: Rewritten in Rust: 100x faster than Quarto – fast enough to render at a key stroke, and can sync source and visual editors nicely 
-  - QuartoHub: Collaborative editor for Quarto documents (experimental): features real-time rendering, browser-based editor, comments, track changes (both who made the change and what the change is)
-- "Quarto wasn't built for AI — it's rooted in plain text and reproducibility... better when your collaborator is also an agent; consider asking for a qmd file."
-- A Shiny server is an event loop; long tasks block it for every user.
-  - Scaling safely: queues fill; a dispatcher dying stops everything; no dispatcher strands tasks behind slow ones. `mirai`: if a daemon dies, only its queue goes with it.
-  - Bounded queue + `try_mirai()`: set a memory limit; on overflow it returns NULL so you control the fallback (warn, retry).
-  - `mori::share()`: put one dataset in shared memory once — 100 tasks read one copy, so your app supports many more users.
-  - Scales: desktop → your servers over SSH → HPC (`cluster_config()`) → Kubernetes/Workbench launcher. Not just Shiny — tidymodels integration is coming.
-- **bronze → silver → gold** — each hop a versioned, documented transaction
-  - Travis Gerke, "Quack to the Future": attach the database; every change is version-controlled.
-  - Medallion: bronze = raw as received; silver = cleaned, conformed types and names; gold = analysis-ready with business logic.
-  - Also `dplyneage`: column-level lineage for dplyr pipelines — every column traced back to its sources. Slides: tgerke.github.io/quack-to-the-future.
+3. Quarto ecosystem: Emil Hvitfelt, Carlos Scheidegger
+- Innovation: Quarto 2 (100x faster, build with Rust), QuartoHub (real-time collaboration), `quarto-revealjs-editable` (drag-and-drop slide editing)
+- Why it matters: Faster rendering, collaborative workflows, intuitive UI for non-coders
+- Future of quarto 
+- Showcased these new platforms which include fast real-time rendering, browswer based editors, comments, track changes
+- Allows users to operate within quarto that makes sense for a user-interface: 
+
+Quick shout outs to some other amazing innovations and packages: 
+
+4. `{mirai}` + `{mori}`
+- Asyncronous tasks that never block each other; shared memory for efficient scaling
+- Shiny apps handle many more concurrent users without crashing 
+
+5. `{ducklake}` + `{dplyneage}`
+- Database versioning, column-level lineage tracking 
+- Full reproducibility and traceability from raw data to analysis 
+
+6. `{tidymodels}` on Databricks
+- A new function called `tune_grid_spark()` allows model models at scale with the similar arguments to `tune_grid()`
+- This allows us to leverage distributed computing for hyperparameter tuning 
 :::
-<!-- 
-## Keynote: Navigating the agentic future {.center}
-
-[Judgement]{.tegaki .fragment size="3.5"} 
-
-[Taste]{.tegaki .fragment size="3.5"}
-
-[Agency]{.tegaki .fragment size="3.5"}
-
-::: {.notes}
-- Wes McKinney. These three skills mattered pre-AI; without them now you get AI slop, or someone curses your work in the future.
-- Judgement: what to build, what to leave out — agents will happily help you achieve bad ideas.
-- Taste: hundreds of micro-decisions a day without human interaction → decision fatigue → slop.
-- Agency: "Most everything that happens is because a person made it happen" (Mitchell Hashimoto).
-- "They're not agents; you are." His Clanker Constitution: honour the request, act with judgement, finish the job, protect existing work, verify reality, communicate for humans, learn in the right place.
-::: -->
 
 ## Tidy Dev Day
 
@@ -709,12 +715,10 @@ Worked on tidymodels issues `tidymodels/tune#1200`
 ::: {.notes}
  Day 4: Tidy Dev Day, contributing to tidyverse packages.
 - Resolved tidymodels/tidymodels#144; parsnip#1354 was already fixed; brulee#39 was more involved than anticipated.
-- Other Hadley prompts: "Where's the metaphorical bathroom in this package?" and "How could we make this code better?"
 - Great place to meet like-minded folks across fields, expertise, and experience levels — and contribute to the code we all use.
 :::
 
-
-## I fear my skills will atrophy {.big-statement data-menu-title="dionne-thoughts" background-color="#e5cdff" style="font-size:60px;padding: 5px "}
+## I feared my skills will atrophy {.big-statement data-menu-title="dionne-thoughts" background-color="#e5cdff" style="font-size:60px;padding: 5px "}
 
 But it became clear that the [fundamentals]{.violet} will never cease to be [important]{.violet}. 
 
@@ -723,8 +727,6 @@ But it became clear that the [fundamentals]{.violet} will never cease to be [imp
 Using AI tools with [clear intentions]{.violet} and [careful scrutiny]{.violet} can help us achieve our goals.
 
 <!-- Dionne End -->
-
-
 
 <!-- Mansi -->
 ## Mansi's Major Takeaways {.center}
