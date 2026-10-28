@@ -7,7 +7,7 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-10632358f1e1df87e73c32acacbdc550.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/quarto-contrib/timeline-0.1.0/timeline.js"></script>
 <link href="site_libs/quarto-contrib/timeline-0.1.0/timeline.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/easycarousel-0.1.0/embla-carousel.umd.js"></script>
@@ -21,9 +21,9 @@
 <link href="site_libs/quarto-contrib/more-fragments-0.1.0/more-fragments.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/sticky-notes-0.1.1/sticky-notes.js"></script>
 <link href="site_libs/quarto-contrib/sticky-notes-0.1.1/sticky-notes.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+  <meta name="generator" content="quarto-1.9.38">
 
-  <meta name="dcterms.date" content="2026-10-27">
+  <meta name="dcterms.date" content="2026-10-28">
   <title>posit::conf(2026) %&gt;% glimpse()</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,6 +31,9 @@
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -109,7 +112,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-a8695ebef2ff88189847adc84046ecd5.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-9dde42f88daa2a56c6d6420bb2953990.css">
   <link rel="stylesheet" href="theme/theme.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -589,7 +592,7 @@
 <h2>Shiny in Pieces: <code>{shinyreact}</code></h2>
 <div class="magic-move">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(shiny)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(shiny)</span>
 <span id="cb1-2"><a></a></span>
 <span id="cb1-3"><a></a>ui <span class="ot">&lt;-</span> <span class="fu">fluidPage</span>(</span>
 <span id="cb1-4"><a></a>  tags<span class="sc">$</span><span class="fu">head</span>(</span>
@@ -643,10 +646,10 @@
 <span id="cb1-52"><a></a>  })</span>
 <span id="cb1-53"><a></a>}</span>
 <span id="cb1-54"><a></a></span>
-<span id="cb1-55"><a></a><span class="fu">shinyApp</span>(ui, server)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-55"><a></a><span class="fu">shinyApp</span>(ui, server)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">library</span>(shiny)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">library</span>(shiny)</span>
 <span id="cb2-2"><a></a><span class="fu">library</span>(shinyreact)</span>
 <span id="cb2-3"><a></a></span>
 <span id="cb2-4"><a></a>server <span class="ot">&lt;-</span> <span class="cf">function</span>(input, output, session) {</span>
@@ -655,7 +658,7 @@
 <span id="cb2-7"><a></a>  })</span>
 <span id="cb2-8"><a></a>}</span>
 <span id="cb2-9"><a></a></span>
-<span id="cb2-10"><a></a><span class="fu">shinyApp</span>(<span class="fu">page_react</span>(), server)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-10"><a></a><span class="fu">shinyApp</span>(<span class="fu">page_react</span>(), server)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 <aside class="notes">
@@ -777,7 +780,7 @@
 <p><img data-src="images/conf_tidy_dev_05.png"></p>
 </div><div class="column" style="width:40%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r code-overflow-scroll number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="co">#'</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r code-overflow-scroll number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="co">#'</span></span>
 <span id="cb3-2"><a></a><span class="co">#' @return An S3 object of class `control_grid` (also used for `control_bayes`,</span></span>
 <span id="cb3-3"><a></a><span class="co">#' `control_resamples`, `control_last_fit`) used to contain the</span></span>
 <span id="cb3-4"><a></a><span class="co">#' control settings in a grid search as a list.</span></span>
@@ -875,7 +878,7 @@
 <span id="cb3-96"><a></a><span class="co">#'   wf_fixed,</span></span>
 <span id="cb3-97"><a></a><span class="co">#'   split = split,</span></span>
 <span id="cb3-98"><a></a><span class="co">#'   control = ctrl_last_fit</span></span>
-<span id="cb3-99"><a></a><span class="co">#' )</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-99"><a></a><span class="co">#' )</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div></div>
 <aside class="notes">
@@ -1277,7 +1280,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1389,13 +1392,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
