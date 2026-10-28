@@ -82,30 +82,30 @@ Today we will discuss our journeys [before]{.rose-emph}, [during]{.blue-emph} an
 
 ::: {.row height="50%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
 ::: {.fragment}
-![Serology data analysis [tool](https://dionnecargy.github.io/SeroTrackR/)](images/hex_serotrackr.png){height="250px"}
+![Serology data analysis [tool](https://dionnecargy.github.io/SeroTrackR/)](images/hex_serotrackr.png){height="180px"}
 :::
 
 ::: {.fragment}
-![Fit-for-purpose [tool](https://verixiv.org/articles/3-313/v2)](images/hex_PvSeroApp.png){height="250px"}
+![Fit-for-purpose [tool](https://verixiv.org/articles/3-313/v2)](images/hex_PvSeroApp.png){height="180px"}
 :::
 
 ::: {.fragment}
-![Wastewater-specific data analysis [tool](https://github.com/dionnecargy/wastewateR)](images/hex_wastewateR.png){height="250px"}
+![Wastewater-specific data analysis [tool](https://github.com/dionnecargy/wastewateR)](images/hex_wastewateR.png){height="180px"}
 :::
 
 :::
 
 ::: {.row height="50%" style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
 ::: {.fragment}
-![Tram colour palette [package](https://github.com/dionnecargy/melbourne)](images/hex_melbourne.png){height="250px"}
+![Tram colour palette [package](https://github.com/dionnecargy/melbourne)](images/hex_melbourne.png){height="180px"}
 :::
 
 ::: {.fragment}
-![Executive since 2023, Volunteering, [Website](https://r-ladiesmelbourne.github.io/)](images/logo_rladies_1.svg){height="250px"}
+![Executive since 2023, Volunteering, [Website](https://r-ladiesmelbourne.github.io/)](images/logo_rladies_1.svg){height="180px"}
 :::
 
 ::: {.fragment}
-![Wrote my CV using this, available on my [website](https://dionnecargy.github.io/)](images/hex_vitae.svg){height="250px"}
+![Wrote my CV using this, available on my [website](https://dionnecargy.github.io/)](images/hex_vitae.svg){height="180px"}
 :::
 :::
 :::::
@@ -171,13 +171,13 @@ Supported by [Posit PBC]{.violet} to fly to Houston for four nights, registratio
 
 . . .
 
-::: {.sticky color="#c8e6c9" top="120px" left="65%" width="16em" tilt="-3"}
+::: {.sticky color="#c8e6c9" top="120px" left="65%" width="16em" tilt="-3" style="font-size:0.9em"}
 [Positron IDE]{.violet-emph}: Built for data exploration, multilingual, workspaces are folders 
 :::
 
 . . .
 
-::: {.sticky color="#c8e6c9" top="350px" left="65%" width="16em" tilt="-3"}
+::: {.sticky color="#c8e6c9" top="350px" left="65%" width="16em" tilt="-3" style="font-size:0.9em"}
 [Posit Assistant]{.violet} AI **harness** works within IDE, connects to session, can be used with many providers. 
 
 [Posit AI Pass]{.violet} allow you to access many **models** through **one** subscription service
