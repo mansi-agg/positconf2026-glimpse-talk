@@ -1,4 +1,4 @@
-Slides for **`posit::conf(2026) %>% glimpse()`**, a talk by Mansi and Dionne for R-Ladies+ Melbourne.
+[Slides](https://mansi-agg.github.io/positconf2026-glimpse-talk/) for **`posit::conf(2026) %>% glimpse()`**, a talk by [Mansi](https://github.com/mansi-agg) and [Dionne](https://github.com/dionnecargy) for R-Ladies+ Melbourne.
 
 ## About the talk
 
@@ -21,7 +21,7 @@ All conference talks will be out on [YouTube](https://www.youtube.com/@PositPBC)
 - [The Reverse Centaur's Guide to Life After AI by Cory Doctorow](https://www.goodreads.com/book/show/245645195-the-reverse-centaur-s-guide-to-life-after-ai)
 - Building your understanding of common AI tools
   - [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
-  - [Harness](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents) (also [a cool talk to understand harness engineering](https://www.youtube.com/watch?v=rmvDxxNubIg)
+  - [Harness](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents) (also [a cool talk to understand harness engineering](https://www.youtube.com/watch?v=rmvDxxNubIg))
   - [Evals](https://pydantic.dev/docs/ai/evals/evals/)
 - See what your AI agents did and at what it costs using [AgentsView](https://www.agentsview.io/)
 - I learnt about [DeepWiki](https://deepwiki.com/) at the conference and tried it to understand a new public codebase and it's quite cool!
