@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "index.html#TitleSlide",
+    "href": "index.html#TitleSlide",
+    "title": "",
+    "section": "posit::conf(2026) %>% glimpse()",
+    "text": "posit::conf(2026) %&gt;% glimpse()\nHow Community Creates Opportunity\nDionne Argyropoulos, PhD & Mansi Aggarwal"
+  },
+  {
+    "objectID": "index.html#introductions",
+    "href": "index.html#introductions",
+    "title": "",
+    "section": "Introductions",
+    "text": "Introductions\n\n\n\n\n\nWe are Mansi and Dionne, committee members at R-Ladies+ Melbourne\n\n\nWe both attended posit::conf(2026) in Houston, Texas (USA) this September as part of the Opportunity Scholars Program\n\n\nToday we will discuss our journeys before, during and after the conference!"
+  },
+  {
+    "objectID": "index.html#about-mansi",
+    "href": "index.html#about-mansi",
+    "title": "",
+    "section": "About Mansi",
+    "text": "About Mansi"
+  },
+  {
+    "objectID": "index.html#about-dionne",
+    "href": "index.html#about-dionne",
+    "title": "",
+    "section": "About Dionne",
+    "text": "About Dionne\n\n\n\n\n\n\nSerology data analysis tool\n\n\n\n\n\n\n\nFit-for-purpose tool\n\n\n\n\n\n\n\nWastewater-specific data analysis tool\n\n\n\n\n\n\n\n\n\nTram colour palette package\n\n\n\n\n\n\n\nExecutive since 2023, Volunteering, Website\n\n\n\n\n\n\n\nWrote my CV using this, available on my website\n\n\n\n\n\n\n\nExperience with GitHub and Coding:\n\nDeveloper/maintainer of three R packages: SeroTrackR, wastewateR, melbourne\nDeveloper/maintainer R Shiny Application: PvSeroApp\nWritten a paper on SeroTrackR and PvSeroApp fit-for-purpose tool\nWritten my CV entirely using R Markdown via the vitae R package\n\nDeveloper/maintainer of two websites: personal, R-Ladies+ Melbourne\nAlso had to provide three links: Updated my website, provided my GitHub and R-Ladies+ Melbourne website\nOther coding contributions: ebooks for r-ladies+ melb, lab-based protocols, shiny app/r package; joined r dev day 2025 Experience in contributing to the community:\nTreasurer (current), President since 2024-2026, VP in 2023, committee\nOrganise women and gender-minority led events\nUplift women, non-binary and gender minority groups\nFind speakers for events and lead contact for organisation (at the time)\nVeski: Inspiring the next generation of girls in STEM"
+  },
+  {
+    "objectID": "index.html#opportunity-scholars-program",
+    "href": "index.html#opportunity-scholars-program",
+    "title": "",
+    "section": "Opportunity Scholars Program",
+    "text": "Opportunity Scholars Program\nSupported by Posit PBC to fly to Houston for four nights, registration for posit::conf(2026) and a workshop; (optional) for Tidy Dev Day!"
+  },
+  {
+    "objectID": "index.html#timeline",
+    "href": "index.html#timeline",
+    "title": "",
+    "section": "Timeline",
+    "text": "Timeline\n\n\nApplication 📝 Draft and submit application\n\n\nDecision 🎉 Found out we were successful!\n\n\nConference ✈️ Fly to Houston, Texas"
+  },
+  {
+    "objectID": "index.html#positconf2026-glimpse",
+    "href": "index.html#positconf2026-glimpse",
+    "title": "",
+    "section": "posit::conf(2026) %>% glimpse()",
+    "text": "posit::conf(2026) %&gt;% glimpse()"
+  },
+  {
+    "objectID": "index.html#workshop-the-modern-r-workflow",
+    "href": "index.html#workshop-the-modern-r-workflow",
+    "title": "",
+    "section": "Workshop: “The Modern R Workflow”",
+    "text": "Workshop: “The Modern R Workflow”\nwith Jenny Bryan and Hadley Wickham\n\n\n\n\n\nPositron IDE: Built for data exploration, multilingual, workspaces are folders\n\n\n\n\nPosit Assistant AI harness works within IDE, connects to session, can be used with many providers.\nPosit AI Pass allow you to access many models through one subscription service\n\n\n\nDay 1: workshop with Jenny Bryan and Hadley Wickham on AI-assisted coding.\nBuilt for data exploration, writing code (with/out AI)\nFamiliar, RStudio-like and extensible, VSCode\nMultilingual\nPA: Workspace is a folder (no .RProj)\nNo need to migrate from RStudio\nIt shows relative cost within the model picker\nPositron vs. RStudio:\n\nRStudio still best for day-to-day R;\nPositron wins if you work across languages, want to customise through extensions, workflows with multiple R sessions.\n\nPosit Assistant\n\nVarious tool calls that are intuitive and have specific user-input\nTool calls: search, read, write, edit, execudeCode, bash, AskUser, webfetch\n\nPosit AI Pass shows token use at all times and how you compare to others."
+  },
+  {
+    "objectID": "index.html#workshop-the-modern-r-workflow-1",
+    "href": "index.html#workshop-the-modern-r-workflow-1",
+    "title": "",
+    "section": "Workshop: “The Modern R Workflow”",
+    "text": "Workshop: “The Modern R Workflow”\nwith Jenny Bryan and Hadley Wickham\n\nAI/R Tips\n💡 /clear conversations regularly\n💡 Use AGENT.md to store regular instructions\n💡 Ask agent to “talk like a caveman”: succinct and saves tokens\n💡 Create skills to avoid common pitfalls\n💡 {air} (formatting), {pak} (installing packages), {rig} (multiple R installations)\n\n\n\nNEVER MAKE ANOTHER HUMAN READ AI SLOP\n\n\n\nAGENTS.md: instructions the AI reads every session\nIf AI writes your code, comment as a human\nTip: put “talk like a caveman” in your AGENTS.md — saves tokens and gets to the point.\n/clear the Posit AI conversation regularly: conversations are additive and it resends everything in the conversation every time you continue a conversation, increasing the number of tokens used\nOn tokens:\n\nTools exist like agentsview.io shows how many tokens you use and what it costs.\n\nAGENT.md is a way to avoid repeating yourself across multiple conversations, apply personal preferences across projects, keep them minimalist and not build them up too much.\nCreate skills to save tokens by avoiding common pitfalls and to steer it in the right direction to something more efficient\nUse tools like air for formatting, pak for installing R packages and rig to manage multiple R installation\nKimi K3 strongly recommended as a very capable model for a reasonable price\nTerminology:\n\n“Harness” provides the tools (e.g., Posit AI),\n“Model” is the specific LLM (e.g. Kimi K3) and\n“Provider” is who runs the server that runs the model (e.g. posit.ai)\nAn agent is a model, inside a harness, running a loop, using tools, to achieve a goal.\n\nUrge the audience: if you use AI for code, at least edit the comments yourself so a human voice stays in the code."
+  },
+  {
+    "objectID": "index.html#dionnes-conference-highlights",
+    "href": "index.html#dionnes-conference-highlights",
+    "title": "",
+    "section": "Dionne’s Conference Highlights",
+    "text": "Dionne’s Conference Highlights"
+  },
+  {
+    "objectID": "index.html#session-thats-stayed-with-me-teaching-at-the-frontier",
+    "href": "index.html#session-thats-stayed-with-me-teaching-at-the-frontier",
+    "title": "",
+    "section": "Session that’s stayed with me: Teaching at the Frontier",
+    "text": "Session that’s stayed with me: Teaching at the Frontier\n\nwith Mine Cetinkaya-Rundel, Marc Dotson, Derrick Cogburn, Christian Martinez\n\n\n\nProblem 1:\nTeaching how to code in the AI era\n\nSolution:\nTeach clear AI best-practices, coding workflow, assess judgement and syntax\n\n\n\n\n\n\nProblem 2:\nStudents learn for a semester, but forget after.\n\nSolution:\nEncourage students to reflect, promote active learning through encouragement and feedback\n\n\nDirectly impact my developing pedagogical values as a teacher:\nShifting AI as a shortcut to learning support, and fostering creativity.\n\n\n\nThis session was eye-opening for me as an academic supervisor and emerging tertiary teacher. This year was my first year as the Head tutor of Coding and Data Analysis in Biomedicine and next year I will assume the role of co-coordinator. I wanted to learn how to teach code effectively and utilise the new tools at our disposal.\nThe problem is teaching in the AI era is difficult, when students are learning to code but can simply go to AI who can do a pretty good job, but students don’t have the skill set to learn when AI is wrong.\nThe solution from these experienced teachers suggested to: - Integrate AI guide and prompt engineering into classes throughout semester, provide explicit best AI practices - Don’t expect memorisation; expect knowing how to use and verify code, and assessments can both evaluate the judgement and syntax - There is a clear emphasis on teaching students about workflows and version controls, and shift AI from a shortcut to a learning support - Examples of using an AGENTS.md file or other built-in AI agents with integrated pedagogical guardrails\nAnother problem is that often when we teach code, students are motivated and learn a lot, but then after the class they forget everything.\nChristian Martinez had a striking talk about encouraging students to reflect on their work, and create a profile they can refer back to. He called this the “accidental author” model where students were invited to revise or resubmit previous weekly assignments, and create a public-facing quarto book that they can refer back to, or even add to their CV as a tangible output from the class. Because students make their own books, they get creative and go down fun rabbit holes.\nThis session directly will impact how I approach my role as co-coordinator next year: i want to balance AI use with fostering creativity"
+  },
+  {
+    "objectID": "index.html#new-developments-that-i-know-will-change-my-life",
+    "href": "index.html#new-developments-that-i-know-will-change-my-life",
+    "title": "",
+    "section": "New developments that I know will change my life",
+    "text": "New developments that I know will change my life\n\n\n\n\n\n\nProvide trusted code to help AI systems\n\n\nBrowse React.dev components, use them in Shiny\n\n\n\n\n\n\n \n\n \n\n\n\n\n\n\nIntroducing the {commons} R package:\n\n\nInnovation: Trusted code for AI systems\nWhy it matters: Ensures AI has reliable, vetted resources to work with\nAsked the question: How can we design AI systems to produce better work?\nHelp the agent be correct and make it less bad when wrong (sound statistics, reproducible practices, trusted code)\nBy providing trusted code known to be correct\nSignals in response of high and low trust\nAs a teacher/supervisor: A way to ensure AI-generated content students rely on is accurate and aligned with what we teach.\n\n\nIntroducing the {shinyreact} R package:\n\n\nInnovation: use React.dev components directly in shiny\nWhy it matters: Access modern web components without rebuilding them\nReact is a JavaScript library for building interactive user interfaces with reusable components\nand is incredibly popular, with over 100 million downloads per month.\nCompared with shiny’s 50 million downloads in 14 years, that’s a lot.\nIt has a massive ecosystem of pre-built components that you can use.\n{shinyreact} lets us bring React into shiny whilst keeping the R server logic intact,\ngiving us a way more design flexibility and responsiveness than Shiny’s current built-in UI functions alone"
+  },
+  {
+    "objectID": "index.html#shiny-in-pieces-shinyreact",
+    "href": "index.html#shiny-in-pieces-shinyreact",
+    "title": "",
+    "section": "Shiny in Pieces: {shinyreact}",
+    "text": "Shiny in Pieces: {shinyreact}\n\n\nlibrary(shiny)\n\nui &lt;- fluidPage(\n  tags$head(\n    tags$style(HTML(\n      \"\n      .greeting-box {\n        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n        color: white;\n        padding: 20px;\n        border-radius: 10px;\n        margin-top: 20px;\n        font-size: 18px;\n        text-align: center;\n        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n      }\n      .input-section {\n        background-color: #f8f9fa;\n        padding: 15px;\n        border-left: 4px solid #667eea;\n        border-radius: 5px;\n      }\n    \"\n    ))\n  ),\n\n  div(\n    class = \"container\",\n    style = \"margin-top: 40px;\",\n    h1(\"✨ Personalised Greeting App\", style = \"text-align: center;\"),\n\n    div(\n      class = \"input-section\",\n      textInput(\"name\", \"Enter your name:\", placeholder = \"Type here...\"),\n      p(\n        \"We'll create a custom greeting just for you!\",\n        style = \"color: #666; font-style: italic;\"\n      )\n    ),\n\n    div(class = \"greeting-box\", textOutput(\"greeting\"))\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  output$greeting &lt;- renderText({\n    if (input$name == \"\") {\n      \"👋 Welcome! Enter your name above.\"\n    } else {\n      paste0(\"🎉 Hello, \", input$name, \"! Welcome to our app!\")\n    }\n  })\n}\n\nshinyApp(ui, server)\n\n\nlibrary(shiny)\nlibrary(shinyreact)\n\nserver &lt;- function(input, output, session) {\n  output$greeting &lt;- reactive_output({\n    list(message = paste0(\"Hello, \", input$name))\n  })\n}\n\nshinyApp(page_react(), server)\n\n\n\n\nThis giant chunk of code becomes way simpler, and your UI and server stay nicely separated\nBecause instead of writing all your UI logic in R, you can move it to a seprate .tsx Javascript file\nwhich can even be generated with AI\nand then bind your server logic to it using reactive_output()"
+  },
+  {
+    "objectID": "index.html#new-developments-that-i-know-will-change-my-life-1",
+    "href": "index.html#new-developments-that-i-know-will-change-my-life-1",
+    "title": "",
+    "section": "New developments that I know will change my life",
+    "text": "New developments that I know will change my life\n\n\n\n\n\n\nProvide trusted code to help AI systems\n\n\nBrowse React.dev components, use them in Shiny\n\n\nIncluding Quarto2, QuartoHub, quarto-revealjs-editable\n\n\n\n\n\n \n{mirai}: Async, never wait for a result\n{mori}: Shared memory: one copy, many readers\n\n \n{ducklake}: Database versioning in R\n{dplyneage}: Column-level lineage for {dplyr}\n\n\nTune {tidymodels} in Databricks via tune_grid_spark()\n\n\n\n\n\nQuarto ecosystem: Emil Hvitfelt, Carlos Scheidegger\n\n\nInnovation: Quarto 2 (100x faster, build with Rust), QuartoHub (real-time collaboration), quarto-revealjs-editable (drag-and-drop slide editing)\nWhy it matters: Faster rendering, collaborative workflows, intuitive UI for non-coders\nFuture of quarto\nShowcased these new platforms which include fast real-time rendering, browswer based editors, comments, track changes\nAllows users to operate within quarto that makes sense for a user-interface:\n\nQuick shout outs to some other amazing innovations and packages:\n\n{mirai} + {mori}\n\n\nAsyncronous tasks that never block each other; shared memory for efficient scaling\nShiny apps handle many more concurrent users without crashing\n\n\n{ducklake} + {dplyneage}\n\n\nDatabase versioning, column-level lineage tracking\nFull reproducibility and traceability from raw data to analysis\n\n\n{tidymodels} on Databricks\n\n\nA new function called tune_grid_spark() allows model models at scale with the similar arguments to tune_grid()\nThis allows us to leverage distributed computing for hyperparameter tuning"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day",
+    "href": "index.html#tidy-dev-day",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day-1",
+    "href": "index.html#tidy-dev-day-1",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day\nWorked on tidymodels issues tidymodels#154\n\n\n\n\nVideo"
+  },
+  {
+    "objectID": "index.html#tidy-dev-day-2",
+    "href": "index.html#tidy-dev-day-2",
+    "title": "",
+    "section": "Tidy Dev Day",
+    "text": "Tidy Dev Day\nWorked on tidymodels issues tidymodels/tune#1200\n\n\n\n\n\n#'\n#' @return An S3 object of class `control_grid` (also used for `control_bayes`,\n#' `control_resamples`, `control_last_fit`) used to contain the\n#' control settings in a grid search as a list.\n#'\n#' @examples\n#'\n#' library(recipes)\n#' library(rsample)\n#' library(parsnip)\n#' library(workflows)\n#'\n#' set.seed(1234)\n#'\n#' folds &lt;- vfold_cv(mtcars, v = 5)\n#'\n#' recipe &lt;- recipe(mpg ~ ., data = mtcars) |&gt;\n#'   step_normalize(all_numeric_predictors())\n#'\n#' # Model with tuning parameters, used for `tune_grid()` and `tune_bayes()`.\n#' spec &lt;- mlp(\n#'   hidden_units = tune(),\n#'   penalty = tune()\n#' ) |&gt;\n#'   set_engine(\"nnet\") |&gt;\n#'   set_mode(\"regression\")\n#'\n#' wf &lt;- workflow() |&gt;\n#'   add_model(spec) |&gt;\n#'   add_recipe(recipe)\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_grid(): Modify tuning process in `tune_grid()`.\n#' ctrl &lt;- control_grid(\n#'   # save out-of-sample predictions\n#'   save_pred = TRUE,\n#'   # print progress while tuning\n#'   verbose = TRUE\n#' )\n#'\n#' tune_grid(\n#'   wf,\n#'   resamples = folds,\n#'   grid = 5,\n#'   control = ctrl\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_bayes(): Modify tuning process in `tune_bayes()`.\n#' ctrl_bayes &lt;- control_bayes(\n#'   save_pred = TRUE,\n#'   verbose = TRUE\n#' )\n#'\n#' set.seed(3246)\n#' tune_bayes(\n#'   wf,\n#'   resamples = folds,\n#'   initial = 5,\n#'   iter = 10,\n#'   control = ctrl_bayes\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # `fit_resamples()` and `last_fit()` can't use `tune()` placeholders, so for\n#' # `control_resamples()` and `control_last_fit()` we use a model with fixed\n#' # parameters.\n#' # ---------------------------------------------------------------------------\n#' # control_resamples(): Retain out-of-sample predictions and fitted workflows\n#' # in the grid and each fold.\n#' spec_fixed &lt;- linear_reg() |&gt;\n#'   set_engine(\"lm\")\n#'\n#' wf_fixed &lt;- workflow() |&gt;\n#'   add_model(spec_fixed) |&gt;\n#'   add_recipe(recipe)\n#'\n#' keep_pred &lt;- control_resamples(\n#'   save_pred = TRUE,\n#'   save_workflow = TRUE\n#' )\n#'\n#' fit_resamples(\n#'   wf_fixed,\n#'   resamples = folds,\n#'   control = keep_pred\n#' )\n#'\n#' # ---------------------------------------------------------------------------\n#' # control_last_fit(): Control last fit process by printing progress.\n#' split &lt;- initial_split(mtcars)\n#'\n#' ctrl_last_fit &lt;- control_last_fit(verbose = TRUE)\n#'\n#' last_fit(\n#'   wf_fixed,\n#'   split = split,\n#'   control = ctrl_last_fit\n#' )\n\n\n\nDay 4: Tidy Dev Day, contributing to tidyverse packages. - Resolved tidymodels/tidymodels#144; parsnip#1354 was already fixed; brulee#39 was more involved than anticipated. - Great place to meet like-minded folks across fields, expertise, and experience levels — and contribute to the code we all use."
+  },
+  {
+    "objectID": "index.html#i-feared-my-skills-will-atrophy",
+    "href": "index.html#i-feared-my-skills-will-atrophy",
+    "title": "",
+    "section": "I feared my skills will atrophy",
+    "text": "I feared my skills will atrophy\nBut it became clear that the fundamentals will never cease to be important.\n\nUsing AI tools with clear intentions and careful scrutiny can help us achieve our goals.\n\n\n\n“Before trusting the scores, validate the Judge” Humans have never been more important in the unstable AI era"
+  },
+  {
+    "objectID": "index.html#mansis-major-takeaways",
+    "href": "index.html#mansis-major-takeaways",
+    "title": "",
+    "section": "Mansi’s Major Takeaways",
+    "text": "Mansi’s Major Takeaways"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "Thinking differently about AI 👩🏽‍💻\nConsumption vs Creation 🛠️"
+  },
+  {
+    "objectID": "index.html#i-have-often-been-an-ai-skeptic",
+    "href": "index.html#i-have-often-been-an-ai-skeptic",
+    "title": "",
+    "section": "I have often been an AI skeptic…",
+    "text": "I have often been an AI skeptic…\n\n\n\n\nBut one thing that stood out across the conference was how thoughtfully people are engaging with AI, not as a replacement for human expertise, but as a tool that can enhance creativity, productivity, communication, teaching, and scientific discovery."
+  },
+  {
+    "objectID": "index.html#some-standout-ai-sessions-and-learnings",
+    "href": "index.html#some-standout-ai-sessions-and-learnings",
+    "title": "",
+    "section": "Some standout AI sessions (and learnings!)",
+    "text": "Some standout AI sessions (and learnings!)\n\n\n\n\n\n\nWes McKinney’s keynote\n\n\n\n\n\n\n\nDemystifying LLM jargon by example\n\n\n\n\n\n\n\n\n\nBuild your understanding of problem statement\n\n\n\n\n\n\n\nDo not outsource your thinking and creativity"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "",
+    "section": "",
+    "text": "💜"
+  },
+  {
+    "objectID": "index.html#consumption-vs-creation",
+    "href": "index.html#consumption-vs-creation",
+    "title": "",
+    "section": "Consumption vs Creation",
+    "text": "Consumption vs Creation\n\n\n\nConsuming\nTalks, docs, packages, other people’s code\nHow I learn\n\nCreating\nContributing, writing, sharing back\nHow I can give back\n\n\nI want to strike a balance between the two, and I’m more inspired to contribute more to the open source community!"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "",
+    "section": "",
+    "text": "Stay curious, stay critical – it’s OK to be a skeptic, but engage thoughtfully with AI\nOwn the problem – the clearer your problem statement, the more useful AI becomes\nKeep the human in the loop – human expertise is what makes AI output trustworthy\nGive back – share what you learn: blog it, talk about it, contribute to a package\nFind your people – communities like R-Ladies+ are where the creating starts 💜"
+  },
+  {
+    "objectID": "index.html#advice-for-opportunity-scholars-2027",
+    "href": "index.html#advice-for-opportunity-scholars-2027",
+    "title": "",
+    "section": "Advice for Opportunity Scholars 2027",
+    "text": "Advice for Opportunity Scholars 2027\n\nBe active in your R communities\nMake a website!\nJoin R/Tidy Dev Days, Data Hangouts, Hackathons\nCompile a list of your R skills"
+  },
+  {
+    "objectID": "index.html#FinalSlide",
+    "href": "index.html#FinalSlide",
+    "title": "",
+    "section": "posit::conf(2026) %>% glimpse(questions = \"?\")",
+    "text": "posit::conf(2026) %&gt;% glimpse(questions = \"?\")\n\n\n\n\n\n\n\nAll talks will be available on YouTube in December!\nThank the organisers, opportunity scholarship, R-Ladies+ Melbourne.\nInvite questions; links to all talks available.\nThank r-ladies for giving me opportunities to grow and promo our 10 year event!!! include flyer if we have it !!"
+  }
+]
