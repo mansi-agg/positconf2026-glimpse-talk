@@ -25,3 +25,12 @@ All conference talks will be out on [YouTube](https://www.youtube.com/@PositPBC)
   - [Evals](https://pydantic.dev/docs/ai/evals/evals/)
 - See what your AI agents did and at what it costs using [AgentsView](https://www.agentsview.io/)
 - I learnt about [DeepWiki](https://deepwiki.com/) at the conference and tried it to understand a new public codebase and it's quite cool!
+
+### From Dionne
+- [`{commons}`](https://posit-dev.github.io/commons/) R package to integrate trusted sources for your code
+- [`{shinyreact}`](https://schloerke.com/presentation-2026-09-15-posit-conf-shinyreact/) to integrate React with Shiny UI
+- [shiny-revealjs-editable](https://emilhvitfeldt.github.io/talk-quarto-editable/#/section) slide deck by Emil Hvitfeldt
+- Cool R packages:
+  - [`{mirai}` + `{mori}`](https://shikokuchuo.net/posit2026/#/title-slide)
+  - [`{ducklake}` + `{dplyneage}`](https://tgerke.github.io/quack-to-the-future/)
+  - [Tune `{tidymodels}` with Databricks](https://spark.posit.co/deployment/databricks_tune_tidymodels)
